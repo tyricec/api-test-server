@@ -7,7 +7,7 @@ let timer = 0;
 setInterval(() => { timer += 1 }, 1000);
 
 app.get('/events', (req, res) => {
-  if (Math.floor(timer / 60) % 2 === 0) {
+  if (Math.floor(timer / 15) % 2 === 0) {
     res.sendFile('events.json', { root: __dirname })
   } else {
     res.sendStatus(404)
