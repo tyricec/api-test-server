@@ -1,0 +1,809 @@
+{
+  "Events": [
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on I-80 Eastbound west of Midway Rd (Vacaville). Right shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T11:41Z",
+      "updated": "2016-09-23T11:41Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.90007999999999,
+          38.414052
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-80 E",
+          "from": "Midway Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T11:41Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T04:42:08.0959"
+        },
+        "event-reference": {
+          "event-identifier": "47163"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on I-80 Eastbound west of Midway Rd (Vacaville). Right shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA095",
+                  "link-road-designator": "I-80 E",
+                  "link-from-road": "Midway Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Vacaville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38414052",
+                    "event-location-coordinates-longitude": "-121900080"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "101580"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T04:41:45.0350",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T04:41:55.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "30.5",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2016-09-23 04:41:45.3503",
+        "ivr-article": "west of",
+        "ivr-county": "Solano",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on I-280 Northbound south of Alpine Rd (Menlo Park). Right shoulder blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:11Z",
+      "updated": "2016-09-23T12:12Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.19036799999999,
+          37.407616
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-280 N",
+          "from": "Alpine Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:11Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:13:08.0913"
+        },
+        "event-reference": {
+          "event-identifier": "47167"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on I-280 Northbound south of Alpine Rd (Menlo Park). Right shoulder blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA081",
+                  "link-road-designator": "I-280 N",
+                  "link-from-road": "Alpine Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Menlo Park",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37407616",
+                    "event-location-coordinates-longitude": "-122190368"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "103250"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:12:08.0956",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:11:48.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "28.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Right shoulder",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:12:08.9569",
+        "ivr-article": "south of",
+        "ivr-county": "San Mateo",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Obstruction on I-80 Westbound east of El Portal Dr (San Pablo). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:22Z",
+      "updated": "2016-09-23T12:21Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.320336,
+          37.9708
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-80 W",
+          "from": "El Portal Dr",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:22Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:23:08.0921"
+        },
+        "event-reference": {
+          "event-identifier": "47168"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "obstructions": "obstruction-on-roadway"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Obstruction on I-80 Westbound east of El Portal Dr (San Pablo). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA013",
+                  "link-road-designator": "I-80 W",
+                  "link-from-road": "El Portal Dr",
+                  "link-to-road": null,
+                  "link-from-city": "San Pablo",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37970800",
+                    "event-location-coordinates-longitude": "-122320336"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "102430"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:21:55.0220",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:22:05.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "34.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "5",
+        "ivr-totalLanes": "Lanes",
+        "ivr-eventDirection": "Westbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:21:55.2208",
+        "ivr-article": "east of",
+        "ivr-county": "Contra Costa",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on US-101 Northbound north of Mckee Rd (San Jose). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:23Z",
+      "updated": "2016-09-23T12:23Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.866672,
+          37.354804
+        ]
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Mckee Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:23Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:24:08.0919"
+        },
+        "event-reference": {
+          "event-identifier": "47169"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on US-101 Northbound north of Mckee Rd (San Jose). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Mckee Rd",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37354804",
+                    "event-location-coordinates-longitude": "-121866672"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "119100"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:23:51.0528",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:23:07.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "35.5",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Lanes",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:23:51.5285",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on I-580 Eastbound east of I-980 W (Oakland). Lane blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:31Z",
+      "updated": "2016-09-23T12:31Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.26588799999999,
+          37.833264
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "I-980 W",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:31Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:32:08.0924"
+        },
+        "event-reference": {
+          "event-identifier": "47170"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on I-580 Eastbound east of I-980 W (Oakland). Lane blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "I-980 W",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37833264",
+                    "event-location-coordinates-longitude": "-122265888"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "105131"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:31:48.0632",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:31:20.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "28.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Lane",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:31:48.6326",
+        "ivr-article": "east of",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on US-101 Northbound north of I-680 S (San Jose). Center Divider blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:34Z",
+      "updated": "2016-09-23T12:34Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.85725599999999,
+          37.336563999999996
+        ]
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "I-680 S",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:34Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:35:08.0924"
+        },
+        "event-reference": {
+          "event-identifier": "47171"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on US-101 Northbound north of I-680 S (San Jose). Center Divider blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "I-680 S",
+                  "link-to-road": null,
+                  "link-from-city": "San Jose",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37336564",
+                    "event-location-coordinates-longitude": "-121857256"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "119080"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:34:32.0459",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:34:25.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "20.5",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Center Divider",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:34:32.4598",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "CHP : Accident on I-580 Eastbound at CA-24 E (Oakland). Lanes blocked. Expect delays.",
+      "event_type": "INCIDENT",
+      "severity": "UNKNOWN",
+      "created": "2016-09-23T12:36Z",
+      "updated": "2016-09-23T12:36Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.277096,
+          37.82628
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-580 E",
+          "from": "CA-24 E",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-09-23T12:36Z/"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-23T05:37:08.0937"
+        },
+        "event-reference": {
+          "event-identifier": "47172"
+        },
+        "event-status": "open",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "incident": "accident"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "CHP : Accident on I-580 Eastbound at CA-24 E (Oakland). Lanes blocked. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA001",
+                  "link-road-designator": "I-580 E",
+                  "link-from-road": "CA-24 E",
+                  "link-to-road": null,
+                  "link-from-city": "Oakland",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37826280",
+                    "event-location-coordinates-longitude": "-122277096"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "105130"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-23T05:36:37.0443",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-09-23T05:36:28.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1003",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "35.5",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "1",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Lanes",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2016-09-23 05:36:37.4438",
+        "ivr-article": "at",
+        "ivr-county": "Alameda",
+        "ivr-laneStatus": "blocked",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    }
+  ]
+}
