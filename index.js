@@ -17,7 +17,7 @@ app.get('/events', (req, res) => {
 
 app.get('/tolls', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
-  if (Math.floor(timer / 90) % 2 === 0) {
+  if (Math.floor(timer / 70) % 2 === 0) {
     res.sendFile('tolls.json', { root: __dirname })
   } else {
     res.sendStatus(404)
@@ -26,7 +26,7 @@ app.get('/tolls', (req, res) => {
 
 app.get('/construction', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
-  if (Math.floor(timer / 90) % 2 === 0) {
+  if (Math.floor(timer / 50) % 2 === 0) {
     res.sendFile('construction.json', { root: __dirname })
   } else {
     res.sendStatus(404)
