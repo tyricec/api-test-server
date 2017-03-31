@@ -8,6 +8,7 @@ setInterval(() => { timer += 1 }, 1000);
 
 app.get('/events', (req, res) => {
   if (Math.floor(timer / 15) % 2 === 0) {
+    res.header('Access-Control-Allow-Origin', '*')
     res.sendFile('events.json', { root: __dirname })
   } else {
     res.sendStatus(404)
