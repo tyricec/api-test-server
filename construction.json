@@ -1,0 +1,751 @@
+{
+  "Events": [
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on CA-128 Eastbound and Westbound between Lower Chiles Valley Rd (Napa) and Berryessa Knoxville Rd (Napa). Alternate lanes closed. Expect delays.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-08-05T20:20Z",
+      "updated": "2016-09-22T19:40Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.29627199999999,
+          38.503876
+        ]
+      },
+      "roads": [
+        {
+          "name": "CA-128 E",
+          "from": "Lower Chiles Valley Rd",
+          "to": "Berryessa Knoxville Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-08-05T20:20Z/2016-10-01T06:55Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-22T12:41:07.0721"
+        },
+        "event-reference": {
+          "event-identifier": "23765"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on CA-128 Eastbound and Westbound between Lower Chiles Valley Rd (Napa) and Berryessa Knoxville Rd (Napa). Alternate lanes closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA055",
+                  "link-road-designator": "CA-128 E",
+                  "link-from-road": "Lower Chiles Valley Rd",
+                  "link-to-road": "Berryessa Knoxville Rd",
+                  "link-from-city": "Napa",
+                  "link-to-city": "Napa",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38503876",
+                    "event-location-coordinates-longitude": "-122296272"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": [
+                      "421836",
+                      "421840"
+                    ]
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-22T12:40:23.0278",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-08-05T13:20:00.0000",
+              "cleared-time": "2016-09-30T23:55:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "2"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Alternate lanes",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2016-09-22 12:40:23.2783",
+        "ivr-article": "between",
+        "ivr-county": "Napa",
+        "ivr-laneStatus": "closed",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on CA-1 Northbound and Southbound north of Gravenstein Hwy (Valley Ford). Alternate lanes open. Expect delays.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-07-11T16:15Z",
+      "updated": "2016-09-22T19:38Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -123.104664,
+          38.437011999999996
+        ]
+      },
+      "roads": [
+        {
+          "name": "CA-1 N",
+          "from": "Gravenstein Hwy",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-07-11T16:15Z/2017-06-01T01:00Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-22T12:39:07.0636"
+        },
+        "event-reference": {
+          "event-identifier": "8173"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on CA-1 Northbound and Southbound north of Gravenstein Hwy (Valley Ford). Alternate lanes open. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "CA-1 N",
+                  "link-from-road": "Gravenstein Hwy",
+                  "link-to-road": null,
+                  "link-from-city": "Valley Ford",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38437012",
+                    "event-location-coordinates-longitude": "-123104664"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "151270"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-22T12:38:28.0793",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-07-11T09:15:00.0000",
+              "cleared-time": "2017-05-31T18:00:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "2"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Alternate lanes",
+        "ivr-eventDirection": "Northbound and Southbound",
+        "ivr-lastUpdateDttm": "2016-09-22 12:38:28.7933",
+        "ivr-article": "north of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "open",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on CA-152 Eastbound and Westbound between Pole Line Rd (Gilroy) and Watsonville Rd (Gilroy). Alternate lanes open. One way traffic control in effect.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-07-11T16:20Z",
+      "updated": "2016-09-15T19:54Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.71691999999999,
+          36.995979999999996
+        ]
+      },
+      "roads": [
+        {
+          "name": "CA-152",
+          "from": "Pole Line Rd",
+          "to": "Watsonville Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-07-11T16:20Z/2016-10-16T06:55Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-15T16:27:21.0930"
+        },
+        "event-reference": {
+          "event-identifier": "8175"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on CA-152 Eastbound and Westbound between Pole Line Rd (Gilroy) and Watsonville Rd (Gilroy). Alternate lanes open. One way traffic control in effect."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "CA-152",
+                  "link-from-road": "Pole Line Rd",
+                  "link-to-road": "Watsonville Rd",
+                  "link-from-city": "Gilroy",
+                  "link-to-city": "Gilroy",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "36995980",
+                    "event-location-coordinates-longitude": "-121716920"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": [
+                      "350000",
+                      "350010"
+                    ]
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-15T12:54:17.0747",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-07-11T09:20:00.0000",
+              "cleared-time": "2016-10-15T23:55:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "2"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Alternate lanes",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2016-09-15 12:54:17.7473",
+        "ivr-article": "between",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "open",
+        "ivr-genOtherText": "One way traffic control in effect",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on I-205 Eastbound between I-580 (Unincorporated) and I-5 (Tracy). Various lanes closed. Expect delays.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-07-12T04:25Z",
+      "updated": "2016-09-22T19:39Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -121.57544,
+          37.741572
+        ]
+      },
+      "roads": [
+        {
+          "name": "I-205 E",
+          "from": "I-580",
+          "to": "I-5",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-07-12T04:25Z/2016-11-30T14:00Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-22T12:40:07.0723"
+        },
+        "event-reference": {
+          "event-identifier": "8180"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on I-205 Eastbound between I-580 (Unincorporated) and I-5 (Tracy). Various lanes closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": null,
+                  "link-road-designator": "I-205 E",
+                  "link-from-road": "I-580",
+                  "link-to-road": "I-5",
+                  "link-from-city": "Unincorporated",
+                  "link-to-city": "Tracy",
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37741572",
+                    "event-location-coordinates-longitude": "-121575440"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": [
+                      "360000",
+                      "360010",
+                      "360020",
+                      "360030",
+                      "360040",
+                      "360050",
+                      "360060"
+                    ]
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-22T12:39:12.0678",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-07-11T21:25:00.0000",
+              "cleared-time": "2016-11-30T06:00:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "2"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Various lanes",
+        "ivr-eventDirection": "Eastbound",
+        "ivr-lastUpdateDttm": "2016-09-22 12:39:12.6784",
+        "ivr-article": "between",
+        "ivr-county": "San Joaquin",
+        "ivr-laneStatus": "closed",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on US-101 Northbound north of Embarcadero Rd (Palo Alto). Auxiliary Lane closed. Expect delays.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-07-11T16:30Z",
+      "updated": "2016-09-22T19:39Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.12292799999999,
+          37.448879999999996
+        ]
+      },
+      "roads": [
+        {
+          "name": "US-101 N",
+          "from": "Embarcadero Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-07-11T16:30Z/2017-01-01T07:55Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-22T12:40:07.0644"
+        },
+        "event-reference": {
+          "event-identifier": "8186"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on US-101 Northbound north of Embarcadero Rd (Palo Alto). Auxiliary Lane closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA085",
+                  "link-road-designator": "US-101 N",
+                  "link-from-road": "Embarcadero Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Palo Alto",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "37448880",
+                    "event-location-coordinates-longitude": "-122122928"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "119300"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-22T12:39:30.0982",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-07-11T09:30:00.0000",
+              "cleared-time": "2016-12-31T23:55:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "1"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Auxiliary Lane",
+        "ivr-eventDirection": "Northbound",
+        "ivr-lastUpdateDttm": "2016-09-22 12:39:30.9823",
+        "ivr-article": "north of",
+        "ivr-county": "Santa Clara",
+        "ivr-laneStatus": "closed",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    },
+    {
+      "status": "ACTIVE",
+      "headline": "Caltrans : Long-term construction on Gravenstein Hwy Eastbound and Westbound area of River Rd (Guerneville). Alternate lanes closed. Expect delays.",
+      "event_type": "CONSTRUCTION",
+      "severity": "UNKNOWN",
+      "created": "2016-07-12T14:30Z",
+      "updated": "2016-09-22T19:39Z",
+      "geography": {
+        "crs": {
+          "type": "name",
+          "properties": {
+            "name": "urn:ogc:def:crs:EPSG::4326"
+          }
+        },
+        "type": "Point",
+        "coordinates": [
+          -122.997,
+          38.502179999999996
+        ]
+      },
+      "roads": [
+        {
+          "name": "Gravenstein Hwy",
+          "from": "River Rd",
+          "state": "Open"
+        }
+      ],
+      "schedule": {
+        "intervals": [
+          "2016-07-12T14:30Z/2016-10-29T01:00Z"
+        ]
+      },
+      "extension": {
+        "message-header": {
+          "event-message-time-stamp": "2016-09-22T12:41:07.0646"
+        },
+        "event-reference": {
+          "event-identifier": "9269"
+        },
+        "event-status": "update",
+        "details": {
+          "eventElementDetails": {
+            "event-element-sequence": "1",
+            "event-element-description": {
+              "eventDescription": [
+                {
+                  "event-phrase": {
+                    "eventType": {
+                      "roadwork": "long-term-road-construction"
+                    }
+                  }
+                },
+                {
+                  "event-advice": {
+                    "suggestions": "unknown"
+                  }
+                },
+                {
+                  "event-additional-text": {
+                    "eventAdditionalText": {
+                      "event-description": "Caltrans : Long-term construction on Gravenstein Hwy Eastbound and Westbound area of River Rd (Guerneville). Alternate lanes closed. Expect delays."
+                    }
+                  }
+                }
+              ]
+            },
+            "event-element-location": {
+              "event-location-type": {
+                "event-location-type-link": {
+                  "event-location-type-area": "CA097",
+                  "link-road-designator": "Gravenstein Hwy",
+                  "link-from-road": "River Rd",
+                  "link-to-road": null,
+                  "link-from-city": "Guerneville",
+                  "link-to-city": null,
+                  "link-primary-location": {
+                    "event-location-coordinates-latitude": "38502180",
+                    "event-location-coordinates-longitude": "-122997000"
+                  },
+                  "link-direction": "positive-direction",
+                  "event-location-links": {
+                    "link-id": "320050"
+                  }
+                }
+              }
+            },
+            "event-element-times": {
+              "update-time": "2016-09-22T12:39:59.0883",
+              "valid-period": {
+                "event-timeline-estimated-duration": "0"
+              },
+              "start-time": "2016-07-12T07:30:00.0000",
+              "cleared-time": "2016-10-28T18:00:00.0000",
+              "utc-offset": "-0700"
+            },
+            "event-element-lanes": {
+              "eventLanes": {
+                "event-lanes-affected-count": "2"
+              }
+            },
+            "event-element-source": {
+              "event-organization-reported-identifier": "1004",
+              "organization-contact-organization-name": null
+            }
+          }
+        },
+        "EventImpact": "0.0",
+        "RoadClosed": "false",
+        "ivr-eventStatus": "2",
+        "ivr-eventClass": "-1",
+        "ivr-incidentTypeImpact": "10",
+        "ivr-totalLanes": "Alternate lanes",
+        "ivr-eventDirection": "Eastbound and Westbound",
+        "ivr-lastUpdateDttm": "2016-09-22 12:39:59.883",
+        "ivr-article": "area of",
+        "ivr-county": "Sonoma",
+        "ivr-laneStatus": "closed",
+        "ivr-impact": "Always play incident",
+        "ivr-genOtherText": "Expect delays",
+        "ivr-completeFlag": "1"
+      }
+    }
+  ]
+}

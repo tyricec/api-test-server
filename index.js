@@ -15,6 +15,24 @@ app.get('/events', (req, res) => {
   }
 })
 
+app.get('/tolls', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 90) % 2 === 0) {
+    res.sendFile('tolls.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
+app.get('/construction', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 90) % 2 === 0) {
+    res.sendFile('construction.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 let port = process.env.PORT || 9000
 
 app.listen(port)
