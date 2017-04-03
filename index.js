@@ -78,6 +78,15 @@ app.get('/park-ride', (req, res) => {
   }
 })
 
+app.get('/realtime-parking', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 50) % 2 === 0) {
+    res.sendFile('realtime-parking.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 let port = process.env.PORT || 9000
 
 app.listen(port)
