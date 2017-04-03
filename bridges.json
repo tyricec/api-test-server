@@ -1,0 +1,400 @@
+{
+   "page_number":1,
+   "paginate_by":10,
+   "count":8,
+   "objects":[
+      {
+         "id":699,
+         "name":"Richmond - San Rafael Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"Richmond",
+            "neighborhood":null,
+            "line1":"Richmond",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.403328,
+                  37.932453
+               ]
+            }
+         },
+         "direction":"Westbound on I-580",
+         "public_transit":"Golden Gate Transit Route 40",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":"Discounted toll passage on far left (HOV) lane",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagRichmondSR-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":695,
+         "name":"Benicia-Martinez Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"Benicia",
+            "neighborhood":null,
+            "line1":"Benicia",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.114162,
+                  38.026989
+               ]
+            }
+         },
+         "direction":"Northbound on I-680",
+         "public_transit":"Benicia Transit, Solano BART Express",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":"Discounted toll passage on far left (HOV) lane and Lane #3 (3rd lane from the right)",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagBenicia-Martin-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":697,
+         "name":"Dumbarton Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"Union City",
+            "neighborhood":null,
+            "line1":"Union City",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.075208,
+                  37.535475
+               ]
+            }
+         },
+         "direction":"Westbound on Route 84",
+         "public_transit":"Dumbarton Express",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":"Discounted toll passage on far left (HOV) lane",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagDumbarton-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":2,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":696,
+         "name":"Carquinez Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"Carquinez",
+            "neighborhood":null,
+            "line1":"Carquinez",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.226614,
+                  38.069092
+               ]
+            }
+         },
+         "direction":"Northbound on I-80",
+         "public_transit":"Vallejo Ferry Service, Vallejo Transit- Route 80 from Vallejo, Route 90 from Fairfield",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":"Discounted toll passage on far left (HOV) lane and Lane #5 (5th lane from the left)",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagCarqBridg-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":701,
+         "name":"San Mateo - Hayward Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"San Mateo",
+            "neighborhood":null,
+            "line1":"San Mateo",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.152606,
+                  37.618039
+               ]
+            }
+         },
+         "direction":"Westbound on Route 92",
+         "public_transit":"Foster City Bay Shuttle",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":"Discounted toll passage on far left (HOV) lane",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagSanMat-Hayw-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":2,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":698,
+         "name":"Golden Gate Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisico",
+            "neighborhood":null,
+            "line1":"San Francisico",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.475522,
+                  37.807326
+               ]
+            }
+         },
+         "direction":"Southbound on US 101",
+         "public_transit":"Golden Gate Transit and Golden Gate Ferry",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "payByPlate":"7.5",
+               "fastrak":"6.5",
+               "all_days":"True",
+               "toll":"0"
+            }
+         ],
+         "more_info":"Discounted toll passage at designated carpool lanes only.",
+         "more_info_link":"",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtm",
+         "discount_toll":"4.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "all_hours":"False",
+               "times":"5:00AM - 9:00AM&4:00PM - 6:00PM",
+               "all_days":"False",
+               "days":"M-F"
+            }
+         ]
+      },
+      {
+         "id":1410,
+         "name":"Antioch Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"US",
+            "state":"CA",
+            "county":null,
+            "city":"Antioch",
+            "neighborhood":null,
+            "line1":"Antioch",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  0.0,
+                  0.0
+               ]
+            }
+         },
+         "direction":"Northbound on Route 160",
+         "public_transit":"NA",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "all_hours":"True",
+               "payByPlate":"-3",
+               "fastrak":"5",
+               "all_days":"True",
+               "toll":"5"
+            }
+         ],
+         "more_info":null,
+         "more_info_link":null,
+         "additional_info_link":null,
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      },
+      {
+         "id":700,
+         "name":"San Francisco-Oakland Bay Bridge",
+         "location":{
+            "zipCode":null,
+            "country":"USA",
+            "state":"ca",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"San Francisco",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.313849,
+                  37.824904
+               ]
+            }
+         },
+         "direction":"Westbound on I-80",
+         "public_transit":"AC Transit, Alameda/Oakland Ferry, BART, Vallejo Baylink Ferry, Harbor Bay Ferry",
+         "type":"BridgeToll",
+         "schedule":[
+            {
+               "toll":"6",
+               "fastrak":"6",
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            },
+            {
+               "toll":"4",
+               "fastrak":"4",
+               "days":"M-F",
+               "times":"10:00AM - 3:00PM&7:00PM - 5:00AM"
+            },
+            {
+               "all_hours":"True",
+               "toll":"5",
+               "fastrak":"5",
+               "all_days":"False",
+               "days":"S-S"
+            }
+         ],
+         "more_info":"Discounted toll lanes on the far left and far right sides of the toll plaza.",
+         "more_info_link":"https://www.bayareafastrak.org/en/images/LaneDiagSF-Oak-final.pdf",
+         "additional_info_link":"https://www.bayareafastrak.org/en/howitworks/wheretouse.shtml",
+         "discount_toll":"2.50000",
+         "discount_fastrak_tag":true,
+         "discount_num_persons":3,
+         "discount_two_seater":true,
+         "discount_ILEV":true,
+         "discount_motorcycle":true,
+         "discount_schedule":[
+            {
+               "days":"M-F",
+               "times":"5:00AM - 10:00AM&3:00PM - 7:00PM"
+            }
+         ]
+      }
+   ]
+}
