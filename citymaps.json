@@ -1,0 +1,127 @@
+{
+   "page_number":1,
+   "paginate_by":10,
+   "count":25,
+   "objects":[
+      {
+         "id":1361,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Berkeley",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/4f/95/4f9590d3-2841-4960-88f7-40de346e5c03/berkeley-bikeways-network.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/b1/b4/b1b46117-85e8-4983-b3e4-e747d5546cda/map-berkeley.jpg"
+      },
+      {
+         "id":1362,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Burlingame",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/6b/4a/6b4a214d-164b-4bfc-af8e-05a53620b32f/burlingame-bicycle-route-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/f3/1c/f31c19ca-20ce-47d9-8018-a4ddb602194f/map-burlingame.jpg"
+      },
+      {
+         "id":1363,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Cupertino",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/b2/07/b20718ac-b682-487a-8136-5469887630f3/cupertino-city-bikeways-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/19/03/1903a577-96b2-4287-ad6d-ed73c1b735aa/map-cupertino.jpg"
+      },
+      {
+         "id":1364,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Fremont",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/74/32/74324ebb-99ff-4b77-8fc1-f4233f8bebb2/fremont-bikeway-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/f6/97/f697eedd-dd02-473d-958c-85e92fa01fb6/map-fremont.jpg"
+      },
+      {
+         "id":1365,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Marin County",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/d6/73/d673f85a-eae0-4d6b-8281-d97190d23b1f/marin-county-bicycle-coalition-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/26/40/2640f418-3b70-44f6-bd2b-c07f662e5cd4/map-marin.jpg"
+      },
+      {
+         "id":1366,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Menlo Park",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/a0/cb/a0cb9fc3-c521-4d90-9ff2-8dbaa34bcd49/mid-peninsula-bicycle-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/af/8c/af8caca2-f698-4726-aa53-1bbfa97a94c2/map-mid-peninsula.jpg"
+      },
+      {
+         "id":1367,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Milpitas",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/b7/7c/b77c594b-3c15-4ae3-b8be-2b4d41134ddb/milipitas-bike-map-2009.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/14/21/1421aa2b-9070-43b9-8ed2-2f79872e4819/map-milpitas.jpg"
+      },
+      {
+         "id":1368,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Mountain View",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/24/83/24837be3-7b26-4893-a3b1-b36706ea63b8/mountain-view-bike-map.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/a0/61/a061583d-89d9-4705-9d84-6cb770384df3/map-mountain-view.jpg"
+      },
+      {
+         "id":1369,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Napa County",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/d9/cb/d9cba2d4-823a-474b-acd1-d574a193a530/bike-napa-valley.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/f6/4b/f64bbbf6-70b3-43d1-bf28-d5f045678579/map-napa.jpg"
+      },
+      {
+         "id":1370,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Oakland East",
+         "biking_type":"County & City Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/6f/21/6f21f04b-c428-4066-b94e-3544071b9059/oakland-east.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/30/22/3022bd33-8ae2-4692-b2d9-6feea473be0b/map-oakland-east.jpg"
+      }
+   ]
+}
