@@ -1,0 +1,3893 @@
+{
+   "page_number":1,
+   "paginate_by":100,
+   "count":99,
+   "objects":[
+      {
+         "id":564,
+         "name":"12th Street Oakland City Center BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_12S-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_12S-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_12S-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_12S-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Broadway Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"Alameda",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"1245 Broadway",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.27179,
+                  37.80332
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":565,
+         "name":"16th Street Mission BART",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"2000 Mission Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4221477,
+                  37.7647932
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":566,
+         "name":"19th Street Oakland BART Station/Uptown Transit Center",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_19TH-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_19TH-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_19S-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Broadway Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"20th St and Broadway",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.270406,
+                  37.809642
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":567,
+         "name":"22nd Street Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"1149 22nd St.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.3928983,
+                  37.7575251
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":568,
+         "name":"24th Street Mission BART",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"2800 Mission Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4209107,
+                  37.7519959
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":569,
+         "name":"4th & King Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_4K-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_4K-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_4K-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_4K-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"700 4th St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.394563,
+                  37.776439
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":570,
+         "name":"Ashby BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_ASHB-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "West Berkeley Shuttle"
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Berkeley",
+            "neighborhood":null,
+            "line1":"3100 Adeline St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2721662,
+                  37.8528872
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"AC Transit"
+            }
+         ]
+      },
+      {
+         "id":571,
+         "name":"Balboa Park BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"401 Geneva Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4496805,
+                  37.7215037
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":572,
+         "name":"Bay Fair BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_BAYF-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_BayFair.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_BAYF-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Leandro",
+            "neighborhood":null,
+            "line1":"15242 Hesperian Blvd.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.1286877,
+                  37.6969843
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":573,
+         "name":"Bayshore Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Bayshore/Brisbane Senior Shuttle",
+            "Bayshore/Brisbane Commuter Shuttle",
+            "Crocker Park Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"400 Tunnel Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4035405,
+                  37.7097208
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":574,
+         "name":"Belmont Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Belmont-Hillsdale Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Belmont",
+            "neighborhood":null,
+            "line1":"995 El Camino Real",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2786141,
+                  37.5213679
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":575,
+         "name":"Blossom Hill Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"5560 Monterey Hwy.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.7997845,
+                  37.2529959
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":576,
+         "name":"Burlingame Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Burlingame Trolley"
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Burlingame",
+            "neighborhood":null,
+            "line1":"290 California Drive",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.3471295,
+                  37.5795064
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":577,
+         "name":"California Ave Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Palo Alto",
+            "neighborhood":null,
+            "line1":"101 California Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.1433561,
+                  37.4290996
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":578,
+         "name":"Capitol Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"3400 Monterey Hwy.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.8432513,
+                  37.283822
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":579,
+         "name":"Castro Valley BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_CAST-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Castro Valley",
+            "neighborhood":null,
+            "line1":"3301 Norbridge Dr.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0770751,
+                  37.6917745
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":580,
+         "name":"Civic Center/UN Plaza BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_CC-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_CC-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_CC-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_CC-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"1150 Market St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.413457,
+                  37.779424
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":581,
+         "name":"Cloverdale Depot",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Cloverdale",
+            "neighborhood":null,
+            "line1":"Asti Road/ Citrus Fair Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -123.011471,
+                  38.798848
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Sonoma County Transit"
+            }
+         ]
+      },
+      {
+         "id":582,
+         "name":"Coliseum BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_CO-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_CO-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_CO-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_CO-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"7200 San Leandro St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.196275,
+                  37.755055
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Capitol Corridor"
+            }
+         ]
+      },
+      {
+         "id":583,
+         "name":"College Park Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"780 Stockton Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.9167023,
+                  37.3416585
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":584,
+         "name":"Colma BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_COLM-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Colma",
+            "neighborhood":null,
+            "line1":"365 D Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4685342,
+                  37.6845197
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":585,
+         "name":"Concord BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Concord",
+            "neighborhood":null,
+            "line1":"1451 Oakland Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0305467,
+                  37.9743355
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            }
+         ]
+      },
+      {
+         "id":586,
+         "name":"Daly City BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_DALY-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_DALY-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_DALY-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"http://www.actransit.org/wp-content/uploads/HSP_DALY-other.pdf",
+         "shuttles":[
+            "SF State Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Daly City",
+            "neighborhood":null,
+            "line1":"500 John Daly Blvd.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4710886,
+                  37.7061355
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":587,
+         "name":"Downtown Berkeley BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_DBRK-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_DBRK-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_DBRK-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_DBRK-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Bear Transit",
+            "Berkeley Lab Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Berkeley",
+            "neighborhood":null,
+            "line1":"2160 Shattuck Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2702431,
+                  37.8700635
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":588,
+         "name":"Dublin/Pleasanton BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_DP-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_DP-stops.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Pleasanton",
+            "neighborhood":null,
+            "line1":"5801 Owens Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.896205,
+                  37.70225
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"County Connection"
+            },
+            {
+               "name":"Wheels"
+            }
+         ]
+      },
+      {
+         "id":589,
+         "name":"Eastmont Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_Eastmont.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"73rd Ave and Foothill Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.174122,
+                  37.768756
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            }
+         ]
+      },
+      {
+         "id":590,
+         "name":"Eastside Transfer Station",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Santa Rosa",
+            "neighborhood":null,
+            "line1":"Sonoma Ave & Hahman Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.686333,
+                  38.444769
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Santa Rosa CityBus"
+            }
+         ]
+      },
+      {
+         "id":591,
+         "name":"El Cerrito del Norte BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_ECN-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_ECN-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_ECN-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"El Cerrito",
+            "neighborhood":null,
+            "line1":"6400 Cutting Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.31578,
+                  37.9245
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Fairfield and Suisun Transit (FAST)"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"Vine (Napa County)"
+            },
+            {
+               "name":"WestCAT"
+            }
+         ]
+      },
+      {
+         "id":592,
+         "name":"El Cerrito Plaza BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_EC.Plaza_.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Bear Transit"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"El Cerrito",
+            "neighborhood":null,
+            "line1":"6699 Fairmount Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.3010486,
+                  37.9026365
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":593,
+         "name":"Embarcadero BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_EM-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_EM-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_EM-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_EM-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Presidio Go"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"298 Market St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.396534,
+                  37.79288
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":594,
+         "name":"Fairfield Transportation Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_FA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_FA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_FA-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Fairfield",
+            "neighborhood":null,
+            "line1":"2000 Cadenasso Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.068196,
+                  38.248186
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Fairfield and Suisun Transit (FAST)"
+            },
+            {
+               "name":"Rio Vista Delta Breeze"
+            },
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":595,
+         "name":"Fremont BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_FM-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_FM-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_FM-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Fremont",
+            "neighborhood":null,
+            "line1":"2000 BART Way",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.978627,
+                  37.560139
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":596,
+         "name":"Fruitvale BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_FTVL-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"3401 East 12th Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2263751,
+                  37.7751173
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":597,
+         "name":"Gilroy Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Gilroy",
+            "neighborhood":null,
+            "line1":"7150 Monterey St.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.5693654,
+                  37.0036403
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":598,
+         "name":"Glen Park BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"2901 Diamond Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4362252,
+                  37.7331033
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":599,
+         "name":"Great America & Lick Mill Transit Center\n(VTA/ACE/Amtrak Stations)",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_GA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_GA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_GA-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Sunnyvale",
+            "neighborhood":null,
+            "line1":"5099 Stars & Stripes Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.965774,
+                  37.40474
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Altamont Corridor Express"
+            },
+            {
+               "name":"Capitol Corridor"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":600,
+         "name":"Great Mall/Main Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Milpitas",
+            "neighborhood":null,
+            "line1":"Great Mall Pkwy & South Main St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.899279,
+                  37.413692
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":601,
+         "name":"Hayward BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_HAYW-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_Hayward.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_HAYW-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Cal State East Bay Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Hayward",
+            "neighborhood":null,
+            "line1":"699 'B' Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0892654,
+                  37.6698443
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":602,
+         "name":"Hayward Park Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Norfolk Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Mateo",
+            "neighborhood":null,
+            "line1":"401 Concar Drive",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.3111874,
+                  37.55255
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":603,
+         "name":"Hercules Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Hercules",
+            "neighborhood":null,
+            "line1":"Sycamore Ave & San Pablo Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.266914,
+                  38.012628
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"WestCAT"
+            }
+         ]
+      },
+      {
+         "id":604,
+         "name":"Hillsdale Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Belmont-Hillsdale Shuttle",
+            "Campus Drive Shuttle",
+            "Lincoln Centre Shuttle",
+            "Mariners Island/PCA Shuttle",
+            "Norfolk Shuttle",
+            "Redwood City Bayshore Technology Park Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Mateo",
+            "neighborhood":null,
+            "line1":"3333 El Camino Real",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.3002111,
+                  37.5381295
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":605,
+         "name":"Jack London Square",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/Stops_JackLondon.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Broadway Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"Embarcadero West",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2790456,
+                  37.7953389
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"Capitol Corridor"
+            },
+            {
+               "name":"San Francisco Bay Ferry"
+            }
+         ]
+      },
+      {
+         "id":606,
+         "name":"Lafayette BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Lafayette",
+            "neighborhood":null,
+            "line1":"3601 Deer Hill Road",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.1263133,
+                  37.8947028
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            }
+         ]
+      },
+      {
+         "id":607,
+         "name":"Lake Merritt BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_LakeMerritt.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Estuary Crossing Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"800 Madison Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2674292,
+                  37.7973341
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":608,
+         "name":"Lawrence Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Bowers-Walsh Shuttle",
+            "Duane Ave Shuttle",
+            "Mission Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Sunnyvale",
+            "neighborhood":null,
+            "line1":"137 San Zeno Way",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.9991507,
+                  37.3715602
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            }
+         ]
+      },
+      {
+         "id":609,
+         "name":"Lockheed Martin Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Sunnyvale",
+            "neighborhood":null,
+            "line1":"N Mathilda Ave & 5th Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0271323,
+                  37.40940354
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":610,
+         "name":"MacArthur BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_MCAR-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Kaiser Shuttle",
+            "Alta Bates Summit Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"555 40th Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.267888,
+                  37.8291013
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":611,
+         "name":"Marin County Civic Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Rafael",
+            "neighborhood":null,
+            "line1":"Civic Center Dr at Hall of Justice Arch",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.531937,
+                  37.997511
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Marin Transit"
+            }
+         ]
+      },
+      {
+         "id":612,
+         "name":"Menlo Park Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Marsh Road Shuttle",
+            "Willow Road Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Menlo Park",
+            "neighborhood":null,
+            "line1":"1120 Merrill St.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.1846505,
+                  37.4545692
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":613,
+         "name":"Millbrae Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_MI-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_MI-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_MI-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_MI-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "PTCRA Burlingame Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Millbrae",
+            "neighborhood":null,
+            "line1":"200 North Rollins Rd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.38454,
+                  37.60105
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":614,
+         "name":"Montgomery BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_MO-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_MO-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_MO-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_MO-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"598 Market St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.401317,
+                  37.78938
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":615,
+         "name":"Morgan Hill Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Morgan Hill",
+            "neighborhood":null,
+            "line1":"17300 Depot St.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.6525029,
+                  37.1291828
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":616,
+         "name":"Mountain View Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_MV-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_MV-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_MV-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Mountain View Community Shuttle",
+            "MVgo Commuter Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Mountain View",
+            "neighborhood":null,
+            "line1":"600 W Evelyn Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.076071,
+                  37.394021
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            }
+         ]
+      },
+      {
+         "id":617,
+         "name":"Napa Soscol Gateway Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_NA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_NA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_NA-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Napa",
+            "neighborhood":null,
+            "line1":"1151 Pearl St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.288081,
+                  38.300132
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":618,
+         "name":"North Berkeley BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_NBRK-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Berkeley",
+            "neighborhood":null,
+            "line1":"1750 Sacramento Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2855874,
+                  37.8739714
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":619,
+         "name":"North Concord/Martinez BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Concord",
+            "neighborhood":null,
+            "line1":"3700 Port Chicago Highway",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0265215,
+                  38.0031122
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":620,
+         "name":"Oakland International Airport (OAK)",
+         "transit_center_type":"Airport",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_OAK-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_OAK-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"1 Airport Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.213021,
+                  37.71522
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":621,
+         "name":"Orinda BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Orinda",
+            "neighborhood":null,
+            "line1":"11 Camino Pablo",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.1859488,
+                  37.8784052
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            }
+         ]
+      },
+      {
+         "id":622,
+         "name":"Palo Alto Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_PA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_PA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_PA-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_PA-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Stanford Marguerette Shuttle",
+            "Palo Alto Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Palo Alto",
+            "neighborhood":null,
+            "line1":"95 University Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.164021,
+                  37.442764
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"Dumbarton Express"
+            },
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":623,
+         "name":"Pittsburg Bay/Point BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Pittsburg",
+            "neighborhood":null,
+            "line1":"Pittsburg Bay/Point BART Station",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.9459,
+                  38.015721
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Rio Vista Delta Breeze"
+            },
+            {
+               "name":"Tri Delta Transit"
+            }
+         ]
+      },
+      {
+         "id":624,
+         "name":"Pleasant Hill BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_PH-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_PH-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_PH-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Pleasant Hill",
+            "neighborhood":null,
+            "line1":"1365 Treat Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.056615,
+                  37.929468
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            },
+            {
+               "name":"Fairfield and Suisun Transit (FAST)"
+            },
+            {
+               "name":"Wheels"
+            }
+         ]
+      },
+      {
+         "id":625,
+         "name":"Powell BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_POWL-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_POWL-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_POWL-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_POWL-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"899 Market Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4090519,
+                  37.7850029
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":626,
+         "name":"Redwood City Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Pacific Shores Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Redwood City",
+            "neighborhood":null,
+            "line1":"1 James Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2340298,
+                  37.4855241
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":627,
+         "name":"Richmond Amtrak/BART Stations",
+         "transit_center_type":"BART/Amtrak Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_RD-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_RD-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_RD-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Richmond",
+            "neighborhood":null,
+            "line1":"1700 Nevin Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.35174,
+                  37.93755
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":628,
+         "name":"Richmond Parkway Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_RichmondPkwy.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Richmond",
+            "neighborhood":null,
+            "line1":"Blume Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.316818,
+                  37.985568
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":629,
+         "name":"Rockridge BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_ROCK-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"5660 College Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2533944,
+                  37.8447738
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":630,
+         "name":"San Anselmo Hub",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Anselmo",
+            "neighborhood":null,
+            "line1":"Center Blvd & Sir Francis Drake Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.562066,
+                  37.976695
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Marin Transit"
+            },
+            {
+               "name":"Golden Gate Transit"
+            }
+         ]
+      },
+      {
+         "id":631,
+         "name":"San Antonio Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Stanford Marguerite Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Mountain View",
+            "neighborhood":null,
+            "line1":"Caltrain Station",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.108997,
+                  37.4072083
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":632,
+         "name":"San Bruno BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Bruno",
+            "neighborhood":null,
+            "line1":"1151 Huntington Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4184965,
+                  37.6377821
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":633,
+         "name":"San Bruno Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Bruno",
+            "neighborhood":null,
+            "line1":"1151 Huntington Avenue",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4184965,
+                  37.6377863
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":634,
+         "name":"San Carlos Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Electonic Arts Shuttle",
+            "Redwood Shores Twin Dolphin Area Shuttle",
+            "Redwood Shores Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Carlos",
+            "neighborhood":null,
+            "line1":"599 El Camino Real",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2621981,
+                  37.5075677
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":635,
+         "name":"San Francisco Ferry Terminal",
+         "transit_center_type":"Ferry Terminal",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_FE-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United State",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"298 Market St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.39242,
+                  37.795734
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Golden Gate Ferry"
+            },
+            {
+               "name":"San Francisco Bay Ferry"
+            },
+            {
+               "name":"SFMTA"
+            }
+         ]
+      },
+      {
+         "id":636,
+         "name":"San Francisco International Airport (SFO)",
+         "transit_center_type":"Airport",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SFO-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_SFO-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"806 South Airport Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.390936,
+                  37.61502
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":637,
+         "name":"San Jose Diridon Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SJD-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_SJD-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_SJD-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_SJD-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"65 Cahill St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.901274,
+                  37.330195
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Altamont Corridor Express"
+            },
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"Capitol Corridor"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":638,
+         "name":"San Jose International Airport (SJC)",
+         "transit_center_type":"Airport",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SJC-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"2077 Airport Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.929626,
+                  37.370275
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":639,
+         "name":"San Leandro BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SANL-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Links Shuttle",
+            "FLEX Shuttle",
+            "Kaiser Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Leandro",
+            "neighborhood":null,
+            "line1":"1401 San Leandro Blvd.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.163167,
+                  37.7221465
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":640,
+         "name":"San Martin Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Martin",
+            "neighborhood":null,
+            "line1":"13400 Monterey Hwy.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.6130092,
+                  37.0856699
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":641,
+         "name":"San Mateo Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Mateo",
+            "neighborhood":null,
+            "line1":"385 1st Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.32325,
+                  37.567616
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":642,
+         "name":"San Rafael Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SRF-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_SRF-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_SRF-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_SRF-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Rafael",
+            "neighborhood":null,
+            "line1":"3rd & Hetherton",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.522249,
+                  37.97141
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Golden Gate Ferry"
+            },
+            {
+               "name":"Marin Transit"
+            },
+            {
+               "name":"Sonoma County Transit"
+            }
+         ]
+      },
+      {
+         "id":643,
+         "name":"Santa Clara Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Santa Clara",
+            "neighborhood":null,
+            "line1":"1001 Railroad Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.9387046,
+                  37.3532565
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Altamont Corridor Express"
+            },
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"Capitol Corridor"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":644,
+         "name":"Santa Rosa Transit Mall",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SRS-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_SRS-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_SRS-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Santa Rosa",
+            "neighborhood":null,
+            "line1":"2nd St & B St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.712959,
+                  38.43902
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"Santa Rosa CityBus"
+            },
+            {
+               "name":"Sonoma County Transit"
+            }
+         ]
+      },
+      {
+         "id":645,
+         "name":"Sausalito Ferry Terminal",
+         "transit_center_type":"Ferry Terminal",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Sausalito",
+            "neighborhood":null,
+            "line1":"Humboldt St & Anchor St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.479339,
+                  37.856958
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Golden Gate Ferry"
+            },
+            {
+               "name":"Golden Gate Transit"
+            }
+         ]
+      },
+      {
+         "id":646,
+         "name":"Sereno Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Vallejo",
+            "neighborhood":null,
+            "line1":"Sereno between Sonoma Blvd & Broadway",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.253591,
+                  38.127781
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":647,
+         "name":"South Hayward BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_S.Hayward.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Hayward",
+            "neighborhood":null,
+            "line1":"28601 Dixon Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0593788,
+                  37.6343538
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":648,
+         "name":"South San Francisco BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_SSAN-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"South San Francisco",
+            "neighborhood":null,
+            "line1":"1333 Mission Road",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.445762,
+                  37.6639865
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"SamTrans"
+            }
+         ]
+      },
+      {
+         "id":649,
+         "name":"South San Francisco Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+            "Oyster Point Shuttle",
+            "Utah-Grand Shuttle"
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"South San Francisco",
+            "neighborhood":null,
+            "line1":"590 Dubuque Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.4077575,
+                  37.6575753
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"SamTrans"
+            },
+            {
+               "name":"Caltrain"
+            }
+         ]
+      },
+      {
+         "id":650,
+         "name":"Suisun/Fairfield Amtrak Station",
+         "transit_center_type":"Amtrak Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"Ca",
+            "county":null,
+            "city":"Suisun",
+            "neighborhood":null,
+            "line1":"Spring St & Railroad Ave",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.039357,
+                  38.243042
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Capitol Corridor"
+            },
+            {
+               "name":"Fairfield and Suisun Transit (FAST)"
+            },
+            {
+               "name":"Rio Vista Delta Breeze"
+            },
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":651,
+         "name":"Sunnyvale Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Sunnyvale",
+            "neighborhood":null,
+            "line1":"121 W. Evelyn Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0325329,
+                  37.3781873
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":652,
+         "name":"Tamien Caltrain Station",
+         "transit_center_type":"Caltrain Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Jose",
+            "neighborhood":null,
+            "line1":"1355 Lick Ave.",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.8847499,
+                  37.3112376
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Caltrain"
+            },
+            {
+               "name":"VTA"
+            }
+         ]
+      },
+      {
+         "id":653,
+         "name":"Tewksbury Turnaround",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Richmond",
+            "neighborhood":null,
+            "line1":"Castro St & I-580",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.386096,
+                  37.930521
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"Golden Gate Transit"
+            }
+         ]
+      },
+      {
+         "id":654,
+         "name":"Transbay Temporary Terminal",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_TT-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_TT-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_TT-sched.pdf",
+         "station_map_url":"http://www.actransit.org/wp-content/uploads/HSP_TT-station.pdf",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"San Francisco",
+            "neighborhood":null,
+            "line1":"598 Market St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.393171,
+                  37.789816
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"Golden Gate Transit"
+            },
+            {
+               "name":"SFMTA"
+            },
+            {
+               "name":"WestCAT"
+            }
+         ]
+      },
+      {
+         "id":655,
+         "name":"Union City BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_UCTY-routes.pdf",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Union City",
+            "neighborhood":null,
+            "line1":"10 Union Square",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0194444,
+                  37.5907403
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Dumbarton Express"
+            },
+            {
+               "name":"Union City Transit"
+            }
+         ]
+      },
+      {
+         "id":656,
+         "name":"Vallejo Ferry Terminal",
+         "transit_center_type":"Ferry Terminal",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Vallejo",
+            "neighborhood":null,
+            "line1":"289 Mare Island Way",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.262211,
+                  38.101287
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"San Francisco Bay Ferry"
+            },
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":657,
+         "name":"Vallejo Transit Center",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-routes.pdf",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-stops.pdf",
+         "schedules_fares_url":"http://www.actransit.org/wp-content/uploads/HSP_VA-sched.pdf",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Vallejo",
+            "neighborhood":null,
+            "line1":"York St & Marin St",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.258494,
+                  38.10043
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"San Francisco Bay Ferry"
+            },
+            {
+               "name":"Vine (Napa County)"
+            }
+         ]
+      },
+      {
+         "id":658,
+         "name":"Walnut Creek BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Walnut Creek",
+            "neighborhood":null,
+            "line1":"200 Ygnacio Valley Road",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.0697522,
+                  37.9054676
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"County Connection"
+            },
+            {
+               "name":"Fairfield and Suisun Transit (FAST)"
+            },
+            {
+               "name":"Wheels"
+            }
+         ]
+      },
+      {
+         "id":727,
+         "name":"Warm Springs/South Fremont BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":null,
+         "nearby_stops_url":null,
+         "schedules_fares_url":null,
+         "station_map_url":null,
+         "neighborhood_map_url":null,
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":"94539",
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Fremont",
+            "neighborhood":null,
+            "line1":"45193 Warm Springs Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.936416,
+                  37.502256
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"VTA"
+            },
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":659,
+         "name":"West Dublin/Pleasanton BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Dublin",
+            "neighborhood":null,
+            "line1":"6501 Golden Gate Drive",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.9292662,
+                  37.7010475
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"BART"
+            },
+            {
+               "name":"Wheels"
+            }
+         ]
+      },
+      {
+         "id":660,
+         "name":"West Oakland BART Station",
+         "transit_center_type":"BART Station",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"http://www.actransit.org/wp-content/uploads/Stops_W.Oakland.pdf",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Oakland",
+            "neighborhood":null,
+            "line1":"1451 7th Street",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.2973665,
+                  37.8049
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"AC Transit"
+            },
+            {
+               "name":"BART"
+            }
+         ]
+      },
+      {
+         "id":661,
+         "name":"Windsor Depot",
+         "transit_center_type":"Transit Center",
+         "area_map_routes_url":"",
+         "nearby_stops_url":"",
+         "schedules_fares_url":"",
+         "station_map_url":"",
+         "neighborhood_map_url":"",
+         "shuttles":[
+
+         ],
+         "location":{
+            "zipCode":null,
+            "country":"United States",
+            "state":"CA",
+            "county":null,
+            "city":"Santa Rosa",
+            "neighborhood":null,
+            "line1":"Emily Rose Cir & Windsor Rd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.81687,
+                  38.547889
+               ]
+            }
+         },
+         "agencies":[
+            {
+               "name":"Sonoma County Transit"
+            }
+         ]
+      }
+   ]
+}

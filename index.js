@@ -51,6 +51,15 @@ app.get('/caltrans', (req, res) => {
   }
 })
 
+app.get('/transit-centers', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 50) % 2 === 0) {
+    res.sendFile('transit-centers.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 let port = process.env.PORT || 9000
 
 app.listen(port)
