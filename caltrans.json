@@ -1,0 +1,2524 @@
+{
+   "TrafficSigns":[
+      {
+         "index":"513",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"North",
+            "elevation":"137",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.4686",
+            "locationName":"CM513 S101 Before Battery Tunnel",
+            "postmile":"9.37",
+            "postmilePrefix":"",
+            "latitude":"37.8029",
+            "alignment":"",
+            "milepost":"438.97"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"40 MPH",
+               "phase1Line2":"LIMIT",
+               "phase1Line1":"SPEED",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1490704363,
+         "inService":"true"
+      },
+      {
+         "index":"514",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"South",
+            "elevation":"141",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-1",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.4681",
+            "locationName":"CM514 S101 South Viaduct",
+            "postmile":"6.89",
+            "postmilePrefix":"",
+            "latitude":"37.8005",
+            "alignment":"",
+            "milepost":"443.99"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"40 MPH",
+               "phase1Line2":"LIMIT",
+               "phase1Line1":"SPEED",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1490704363,
+         "inService":"true"
+      },
+      {
+         "index":"1",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Marin",
+            "direction":"North",
+            "elevation":"0",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Corte Madera",
+            "longitude":"-122.515881",
+            "locationName":"CM001-MRN 101 N/B S/OF SIR FRANCIS DRAKE",
+            "postmile":"7.79",
+            "postmilePrefix":"",
+            "latitude":"37.932114",
+            "alignment":"",
+            "milepost":"449.07"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SEARS PT  21 MIN",
+               "phase1Line2":"PETALUMA  26 MIN",
+               "phase1Line1":"NOVATO    14 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491221023,
+         "inService":"true"
+      },
+      {
+         "index":"62",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"East",
+            "elevation":"9",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.406443",
+            "locationName":"CM062-SF 80 E/B E/OF 8TH ST",
+            "postmile":"4.41",
+            "postmilePrefix":"",
+            "latitude":"37.773946",
+            "alignment":"",
+            "milepost":"0.88"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"ON BRIDGE",
+               "phase1Line2":"RIGHT LN CLOSED",
+               "phase1Line1":"ROADWORK AHEAD",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491221863,
+         "inService":"true"
+      },
+      {
+         "index":"74",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"South",
+            "elevation":"45",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"San Jose",
+            "longitude":"-121.905145",
+            "locationName":"CM074 S880 N OF BROKAW RD",
+            "postmile":"5.49",
+            "postmilePrefix":"",
+            "latitude":"37.384348",
+            "alignment":"",
+            "milepost":"5.44"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CUPERTINO 14 MIN",
+               "phase1Line2":"LOS GATOS 14 MIN",
+               "phase1Line1":"S880/280   8 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491236743,
+         "inService":"true"
+      },
+      {
+         "index":"34",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"North",
+            "elevation":"1860",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-17",
+            "nearbyPlace":"Los Gatos",
+            "longitude":"-121.984371",
+            "locationName":"CM034-SCL17 N/B S/OF SUMMIT RD",
+            "postmile":"0.1",
+            "postmilePrefix":"",
+            "latitude":"37.144787",
+            "alignment":"",
+            "milepost":"12.64"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CAMPBELL  15 MIN",
+               "phase1Line2":"SJ ARPT   20 MIN",
+               "phase1Line1":"LOS GATOS 11 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491237823,
+         "inService":"true"
+      },
+      {
+         "index":"4",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Marin",
+            "direction":"South",
+            "elevation":"22",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Novato",
+            "longitude":"-122.561928",
+            "locationName":"CM004-MRN 101 S/B S/OF DELONG AVE OC",
+            "postmile":"20.87",
+            "postmilePrefix":"R",
+            "latitude":"38.101545",
+            "alignment":"",
+            "milepost":"462.15"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SEARS PT  12 MIN",
+               "phase1Line2":"HWY 1     20 MIN",
+               "phase1Line1":"HWY 580   13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491238663,
+         "inService":"true"
+      },
+      {
+         "index":"19",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"North",
+            "elevation":"347",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-17",
+            "nearbyPlace":"Los Gatos",
+            "longitude":"-121.97127",
+            "locationName":"CM019-SCL17 N/B N/OF LOS GATOS RD",
+            "postmile":"7.55",
+            "postmilePrefix":"",
+            "latitude":"37.232981",
+            "alignment":"",
+            "milepost":"20.09"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"MTN VIEW  15 MIN",
+               "phase1Line2":"MILPITAS  17 MIN",
+               "phase1Line1":"SJ ARPT   10 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491239623,
+         "inService":"true"
+      },
+      {
+         "index":"28",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"South",
+            "elevation":"19",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.40365",
+            "locationName":"CM028-SF101 S/B N/OF Cesar Chavez St.",
+            "postmile":"3.06",
+            "postmilePrefix":"",
+            "latitude":"37.750275",
+            "alignment":"",
+            "milepost":"431.28"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"DALY CITY  7 MIN",
+               "phase1Line2":"RTE 92    19 MIN",
+               "phase1Line1":"SFO ARPT  13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491240103,
+         "inService":"true"
+      },
+      {
+         "index":"85",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"East",
+            "elevation":"3",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-92",
+            "nearbyPlace":"San Mateo",
+            "longitude":"-122.265089",
+            "locationName":"CM085-SM 92 E/B E/OF FOSTER CITY BLVD",
+            "postmile":"14.27",
+            "postmilePrefix":"R",
+            "latitude":"37.570889",
+            "alignment":"",
+            "milepost":"14.99"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"FREMONT   22 MIN",
+               "phase1Line2":"CASTRO VY 20 MIN",
+               "phase1Line1":"HAYWARD   12 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491240103,
+         "inService":"true"
+      },
+      {
+         "index":"77",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"North",
+            "elevation":"-3",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"Fremont",
+            "longitude":"-121.925516",
+            "locationName":"CM077 NB 880 JNO DIXON LANDING RD",
+            "postmile":"0.52",
+            "postmilePrefix":"R",
+            "latitude":"37.462634",
+            "alignment":"",
+            "milepost":"10.98"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241183,
+         "inService":"true"
+      },
+      {
+         "index":"155",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"North",
+            "elevation":"36",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"San Leandro",
+            "longitude":"-122.17195",
+            "locationName":"CM155 NB880 NOF MARINA BLVD",
+            "postmile":"23.26",
+            "postmilePrefix":"",
+            "latitude":"37.714775",
+            "alignment":"",
+            "milepost":"33.49"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241183,
+         "inService":"true"
+      },
+      {
+         "index":"156",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"South",
+            "elevation":"3",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"Oakland",
+            "longitude":"-122.303915",
+            "locationName":"CM156 S880 SOF 10TH ST",
+            "postmile":"33.78",
+            "postmilePrefix":"R",
+            "latitude":"37.812121",
+            "alignment":"",
+            "milepost":"44.01"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241183,
+         "inService":"true"
+      },
+      {
+         "index":"18",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"South",
+            "elevation":"318",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-280",
+            "nearbyPlace":"Los Altos",
+            "longitude":"-122.090693",
+            "locationName":"CM018-SCL 280 S/B N/OF FOOTHILL EXP",
+            "postmile":"12.86",
+            "postmilePrefix":"",
+            "latitude":"37.340941",
+            "alignment":"",
+            "milepost":"14.25"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SJ STATE  15 MIN",
+               "phase1Line2":"MTN VIEW   7 MIN",
+               "phase1Line1":"LOS GATOS 17 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241423,
+         "inService":"true"
+      },
+      {
+         "index":"122",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"South",
+            "elevation":"-9",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Millbrae",
+            "longitude":"-122.388759",
+            "locationName":"CM122 SB101 Milbrae",
+            "postmile":"18.51",
+            "postmilePrefix":"",
+            "latitude":"37.607638",
+            "alignment":"",
+            "milepost":"420.75"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"",
+               "phase1Line2":"SAN JOSE      37",
+               "phase1Line1":"TRAVEL TIME(MIN)",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241423,
+         "inService":"true"
+      },
+      {
+         "index":"30",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"South",
+            "elevation":"13",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"Union City",
+            "longitude":"-122.054022",
+            "locationName":"CM030-ALA 880 S/B N/OF FREMONT BLVD",
+            "postmile":"12.24",
+            "postmilePrefix":"",
+            "latitude":"37.58855",
+            "alignment":"",
+            "milepost":"22.41"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"MENLO PRK 14 MIN",
+               "phase1Line2":"SJ ARPT   23 MIN",
+               "phase1Line1":"MILPITAS  15 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491241543,
+         "inService":"true"
+      },
+      {
+         "index":"6",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"West",
+            "elevation":"354",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-24",
+            "nearbyPlace":"Lafayette",
+            "longitude":"-122.123319",
+            "locationName":"CM006-CC 24 W/B W/OF LAFAYETTE STA UC",
+            "postmile":"6.2",
+            "postmilePrefix":"R",
+            "latitude":"37.893832",
+            "alignment":"",
+            "milepost":"10.46"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"7",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"49",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-238",
+            "nearbyPlace":"San Lorenzo",
+            "longitude":"-122.113404",
+            "locationName":"CM007 at NB238",
+            "postmile":"15.36",
+            "postmilePrefix":"",
+            "latitude":"37.688844",
+            "alignment":"",
+            "milepost":"15.16"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"14",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"North",
+            "elevation":"6",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Mateo",
+            "longitude":"-122.278512",
+            "locationName":"CM014 - SM NB101 SOF HILLSDALE BL",
+            "postmile":"10.3",
+            "postmilePrefix":"",
+            "latitude":"37.534778",
+            "alignment":"",
+            "milepost":"412.49"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"27",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"South",
+            "elevation":"301",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-280",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.459543",
+            "locationName":"CM027-SF280 S/B N/OF JOHN DALY BLVD",
+            "postmile":"0.57",
+            "postmilePrefix":"R",
+            "latitude":"37.710701",
+            "alignment":"",
+            "milepost":"50.51"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"71",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"South",
+            "elevation":"410",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-680",
+            "nearbyPlace":"San Ramon",
+            "longitude":"-121.954268",
+            "locationName":"CM071-SB 680 JNO ALCOSTA",
+            "postmile":"1.49",
+            "postmilePrefix":"R",
+            "latitude":"37.742081",
+            "alignment":"",
+            "milepost":"32.92"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"93",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"South",
+            "elevation":"59",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-680",
+            "nearbyPlace":"Pleasant Hill",
+            "longitude":"-122.060003",
+            "locationName":"CM093-CC680 S/B S/OF MONUMENT BL",
+            "postmile":"17.48",
+            "postmilePrefix":"R",
+            "latitude":"37.942049",
+            "alignment":"",
+            "milepost":"48.93"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"95",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"South",
+            "elevation":"22",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-680",
+            "nearbyPlace":"Martinez",
+            "longitude":"-122.097955",
+            "locationName":"CM095 SB680 SOF MARINA VISTA",
+            "postmile":"23.49",
+            "postmilePrefix":"",
+            "latitude":"38.019492",
+            "alignment":"",
+            "milepost":"55.19"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"125",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"East",
+            "elevation":"49",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-238",
+            "nearbyPlace":"San Lorenzo",
+            "longitude":"-122.122871",
+            "locationName":"CM125 S238 JNO ASHLAND",
+            "postmile":"15.88",
+            "postmilePrefix":"",
+            "latitude":"37.689941",
+            "alignment":"",
+            "milepost":"15.7"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"132",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"South",
+            "elevation":"193",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-680",
+            "nearbyPlace":"Fremont",
+            "longitude":"-121.931956",
+            "locationName":"CM132 ALA 680 SB JNO PALM AVE",
+            "postmile":"6.01",
+            "postmilePrefix":"M",
+            "latitude":"37.536394",
+            "alignment":"",
+            "milepost":"15.96"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"136",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"North",
+            "elevation":"498",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-280",
+            "nearbyPlace":"Millbrae",
+            "longitude":"-122.420177",
+            "locationName":"CM136 NB 280 JNO MILLBRAE AVE",
+            "postmile":"18.62",
+            "postmilePrefix":"R",
+            "latitude":"37.597211",
+            "alignment":"",
+            "milepost":"41.17"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"INFO - BART.GOV",
+               "phase1Line2":"CLOSED THIS WKND",
+               "phase1Line1":"LK MERRITT BART",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491242383,
+         "inService":"true"
+      },
+      {
+         "index":"25",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"East",
+            "elevation":"173",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-24",
+            "nearbyPlace":"Oakland",
+            "longitude":"-122.254532",
+            "locationName":"CM025-ALA24 E/B W/OF BROADWAY",
+            "postmile":"3.51",
+            "postmilePrefix":"R",
+            "latitude":"37.843203",
+            "alignment":"",
+            "milepost":"1.61"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CONCORD   18 MIN",
+               "phase1Line2":"SAN RAMON 23 MIN",
+               "phase1Line1":"WALNUT CR 13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491243223,
+         "inService":"true"
+      },
+      {
+         "index":"98",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"North",
+            "elevation":"0",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"Oakland",
+            "longitude":"-122.264523",
+            "locationName":"CM098-ALA 880 N/B S/OF OAK ST.",
+            "postmile":"30.96",
+            "postmilePrefix":"",
+            "latitude":"37.794291",
+            "alignment":"",
+            "milepost":"41.12"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"WALNUT CR 18 MIN",
+               "phase1Line2":"CARQ BRDG 26 MIN",
+               "phase1Line1":"SF DWNTWN 16 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491243223,
+         "inService":"true"
+      },
+      {
+         "index":"11",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"South",
+            "elevation":"6",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Brisbane",
+            "longitude":"-122.390375",
+            "locationName":"CM011-SM101 S/B N/OF SIERRA PT RAMP OC",
+            "postmile":"24.56",
+            "postmilePrefix":"",
+            "latitude":"37.686425",
+            "alignment":"",
+            "milepost":"426.7"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"RTE 84    22 MIN",
+               "phase1Line2":"RTE 92    14 MIN",
+               "phase1Line1":"SFO ARPT   7 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491243343,
+         "inService":"true"
+      },
+      {
+         "index":"15",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"South",
+            "elevation":"-3",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Carlos",
+            "longitude":"-122.246651",
+            "locationName":"CM015-SM101 S/B S/OF BRITTAN AVE OFF",
+            "postmile":"7.6",
+            "postmilePrefix":"",
+            "latitude":"37.505227",
+            "alignment":"",
+            "milepost":"409.81"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"FREMONT   21 MIN",
+               "phase1Line2":"RTE 237   16 MIN",
+               "phase1Line1":"PALO ALTO  9 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491244663,
+         "inService":"true"
+      },
+      {
+         "index":"51",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Solano",
+            "direction":"West",
+            "elevation":"108",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"Vallejo",
+            "longitude":"-122.230372",
+            "locationName":"CM051-SOL80 W/B E/of REDWOOD PKWAY",
+            "postmile":"4.02",
+            "postmilePrefix":"",
+            "latitude":"38.117242",
+            "alignment":"",
+            "milepost":"31.5"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CONCORD   18 MIN",
+               "phase1Line2":"BERKELEY  24 MIN",
+               "phase1Line1":"HWY 4     10 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491245863,
+         "inService":"true"
+      },
+      {
+         "index":"103",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Joaquin",
+            "direction":"West",
+            "elevation":"104",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-205",
+            "nearbyPlace":"Tracy",
+            "longitude":"-121.513039",
+            "locationName":"CM103- W205 JEO JCT-580",
+            "postmile":"2.39",
+            "postmilePrefix":"",
+            "latitude":"37.74148",
+            "alignment":"",
+            "milepost":"3.32"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CASTRO VY 33 MIN",
+               "phase1Line2":"DUBLIN    25 MIN",
+               "phase1Line1":"LIVERMORE 16 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491246103,
+         "inService":"true"
+      },
+      {
+         "index":"17",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"South",
+            "elevation":"3",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Palo Alto",
+            "longitude":"-122.114982",
+            "locationName":"CM017-SCL 101 S/B S/OF EMBARCADERO RD OC",
+            "postmile":"51.47",
+            "postmilePrefix":"",
+            "latitude":"37.440985",
+            "alignment":"",
+            "milepost":"401.11"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"LOS GATOS 21 MIN",
+               "phase1Line2":"MILPITAS  14 MIN",
+               "phase1Line1":"SJ ARPT   14 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491246823,
+         "inService":"true"
+      },
+      {
+         "index":"97",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"121",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"Oakland",
+            "longitude":"-122.251545",
+            "locationName":"CM097-ALA 580 W/B ON CHETWOOD ST. O/C",
+            "postmile":"44.06",
+            "postmilePrefix":"",
+            "latitude":"37.81619",
+            "alignment":"",
+            "milepost":"60.01"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"WALNUT CR 16 MIN",
+               "phase1Line2":"CARQ BRDG 24 MIN",
+               "phase1Line1":"SF DWNTWN 15 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491247183,
+         "inService":"true"
+      },
+      {
+         "index":"36",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"South",
+            "elevation":"436",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-17",
+            "nearbyPlace":"Los Gatos",
+            "longitude":"-121.987602",
+            "locationName":"CM036-SCL17 S/B S/OF SANTA CRUZ AVE",
+            "postmile":"6.13",
+            "postmilePrefix":"",
+            "latitude":"37.218341",
+            "alignment":"",
+            "milepost":"18.67"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SANTA CRZ 28 MIN",
+               "phase1Line2":"SCOTTS VY 20 MIN",
+               "phase1Line1":"SUMMIT RD  9 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491250784,
+         "inService":"true"
+      },
+      {
+         "index":"90",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"West",
+            "elevation":"190",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"Pinole",
+            "longitude":"-122.301053",
+            "locationName":"CM090-CC 80 W/B E/OF APPIAN WAY",
+            "postmile":"7.65",
+            "postmilePrefix":"",
+            "latitude":"37.993725",
+            "alignment":"",
+            "milepost":"20.97"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"OAKLAND   22 MIN",
+               "phase1Line2":"SF DWNTWN 27 MIN",
+               "phase1Line1":"BERKELEY  12 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491250784,
+         "inService":"true"
+      },
+      {
+         "index":"126",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"East",
+            "elevation":"469",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"Pleasanton",
+            "longitude":"-121.946548",
+            "locationName":"CM126 EB 580 JWO SAN RAMON RD",
+            "postmile":"22.06",
+            "postmilePrefix":"R",
+            "latitude":"37.698076",
+            "alignment":"",
+            "milepost":"38.24"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"WALNUT CR 18 MIN",
+               "phase1Line2":"JCT 205   22 MIN",
+               "phase1Line1":"LIVERMORE 12 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491250784,
+         "inService":"true"
+      },
+      {
+         "index":"3",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Marin",
+            "direction":"North",
+            "elevation":"82",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Novato",
+            "longitude":"-122.530845",
+            "locationName":"CM003-MRN 101 N/B N/OF PACHECO CRK OC",
+            "postmile":"16.87",
+            "postmilePrefix":"",
+            "latitude":"38.051245",
+            "alignment":"",
+            "milepost":"458.14"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SEARS PT  11 MIN",
+               "phase1Line2":"ROHNRT PK 25 MIN",
+               "phase1Line1":"PETALUMA  15 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491250904,
+         "inService":"true"
+      },
+      {
+         "index":"26",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"West",
+            "elevation":"521",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-24",
+            "nearbyPlace":"Orinda",
+            "longitude":"-122.186389",
+            "locationName":"CM026-CC 24 W/B W/OF CAMINO PABLO RD",
+            "postmile":"2.2",
+            "postmilePrefix":"R",
+            "latitude":"37.878117",
+            "alignment":"",
+            "milepost":"6.56"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"OAK ARPT  22 MIN",
+               "phase1Line2":"SF DWNTWN 21 MIN",
+               "phase1Line1":"OAKLAND   10 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491250904,
+         "inService":"true"
+      },
+      {
+         "index":"91",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Contra Costa",
+            "direction":"West",
+            "elevation":"213",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"Crockett",
+            "longitude":"-122.23111",
+            "locationName":"CM091-CC 80 W/B W/OF Carquinez Bdg",
+            "postmile":"13.28",
+            "postmilePrefix":"",
+            "latitude":"38.050491",
+            "alignment":"",
+            "milepost":"26.65"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"OAK ARPT  39 MIN",
+               "phase1Line2":"SF DWNTWN 33 MIN",
+               "phase1Line1":"BERKELEY  18 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251143,
+         "inService":"true"
+      },
+      {
+         "index":"2",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Marin",
+            "direction":"South",
+            "elevation":"157",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Rafael",
+            "longitude":"-122.529832",
+            "locationName":"CM002-MRN 101 S/B S/OF SAN PEDRO RD UC",
+            "postmile":"12.43",
+            "postmilePrefix":"",
+            "latitude":"37.990837",
+            "alignment":"",
+            "milepost":"453.7"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"BERKELEY  20 MIN",
+               "phase1Line2":"GG BRIDGE 18 MIN",
+               "phase1Line1":"HWY 1     11 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"10",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"North",
+            "elevation":"13",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-880",
+            "nearbyPlace":"Hayward",
+            "longitude":"-122.076074",
+            "locationName":"CM010 -ALA 880 N/B N/OF INDUSTRIAL PKWY",
+            "postmile":"14.76",
+            "postmilePrefix":"",
+            "latitude":"37.620465",
+            "alignment":"",
+            "milepost":"24.99"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CASTRO VY 10 MIN",
+               "phase1Line2":"OAKLAND   32 MIN",
+               "phase1Line1":"OAK ARPT  23 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"21",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Santa Clara",
+            "direction":"South",
+            "elevation":"104",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-680",
+            "nearbyPlace":"Milpitas",
+            "longitude":"-121.902118",
+            "locationName":"CM021-SCL 680 S/B S/OF SCOTT CREEK RD",
+            "postmile":"9.7",
+            "postmilePrefix":"M",
+            "latitude":"37.461466",
+            "alignment":"",
+            "milepost":"9.68"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"S101 / 85 20 MIN",
+               "phase1Line2":"CUPERTINO 24 MIN",
+               "phase1Line1":"SJ STATE  13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"29",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Solano",
+            "direction":"West",
+            "elevation":"42",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"Suisun City",
+            "longitude":"-122.121624",
+            "locationName":"CM029-SOL80 W/B W/OF WEIGHT STATION",
+            "postmile":"13.99",
+            "postmilePrefix":"",
+            "latitude":"38.227399",
+            "alignment":"",
+            "milepost":"41.47"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"CONCORD   22 MIN",
+               "phase1Line2":"BERKELEY  34 MIN",
+               "phase1Line1":"CARQ BRDG 16 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"40",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"East",
+            "elevation":"357",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-92",
+            "nearbyPlace":"San Mateo",
+            "longitude":"-122.328882",
+            "locationName":"CM040-SM 92 E/B E/of W. HILLSDALE BLVD",
+            "postmile":"9.63",
+            "postmilePrefix":"R",
+            "latitude":"37.535984",
+            "alignment":"",
+            "milepost":"10.33"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"MENLO PRK 15 MIN",
+               "phase1Line2":"SF DWNTWN 31 MIN",
+               "phase1Line1":"SFO ARPT  13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"78",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"East",
+            "elevation":"9",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"Berkeley",
+            "longitude":"-122.305192",
+            "locationName":"CM078-ALA80 E/B E/OF UNIVERSITY AVE",
+            "postmile":"47.09",
+            "postmilePrefix":"",
+            "latitude":"37.872333",
+            "alignment":"L",
+            "milepost":"11.52"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"NOVATO    26 MIN",
+               "phase1Line2":"FAIRFIELD 34 MIN",
+               "phase1Line1":"CARQ BRDG 18 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"84",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"West",
+            "elevation":"-6",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-92",
+            "nearbyPlace":"San Mateo",
+            "longitude":"-122.267473",
+            "locationName":"CM084 WB 92 E. FOSTER CITY BLVD",
+            "postmile":"14.1",
+            "postmilePrefix":"R",
+            "latitude":"37.569366",
+            "alignment":"",
+            "milepost":"14.83"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"PALO ALTO 16 MIN",
+               "phase1Line2":"SFO ARPT  11 MIN",
+               "phase1Line1":"HALF MOON 25 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"123",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"North",
+            "elevation":"0",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"Redwood City",
+            "longitude":"-122.217689",
+            "locationName":"CM123 SM101 NOF 101/84 IC",
+            "postmile":"5.7",
+            "postmilePrefix":"",
+            "latitude":"37.491054",
+            "alignment":"",
+            "milepost":"407.88"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"",
+               "phase1Line2":"SF DOWNTOWN   34",
+               "phase1Line1":"TRAVEL TIME(MIN)",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251263,
+         "inService":"true"
+      },
+      {
+         "index":"70",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"9",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-80",
+            "nearbyPlace":"Emeryville",
+            "longitude":"-122.299285",
+            "locationName":"CM070-ALA80 W/B W/OF RTE 13 (ASHBY AVE)",
+            "postmile":"4.6",
+            "postmilePrefix":"",
+            "latitude":"37.849538",
+            "alignment":"",
+            "milepost":"9.91"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"OAK ARPT  18 MIN",
+               "phase1Line2":"SFO ARPT  27 MIN",
+               "phase1Line1":"SF DWNTWN 14 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"72",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Mateo",
+            "direction":"West",
+            "elevation":"456",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-92",
+            "nearbyPlace":"San Mateo",
+            "longitude":"-122.33235",
+            "locationName":"CM072-SM 92 W/B W/OF DE ANZA BLVD UC",
+            "postmile":"8.64",
+            "postmilePrefix":"R",
+            "latitude":"37.521996",
+            "alignment":"",
+            "milepost":"9.4"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"HWY 84    10 MIN",
+               "phase1Line2":"DALY CITY 19 MIN",
+               "phase1Line1":"HALF MOON 18 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"79",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"North",
+            "elevation":"62",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.395312",
+            "locationName":"CM079-SF101 N/B N/OF CANDLESTICK EXIT",
+            "postmile":"0.2",
+            "postmilePrefix":"",
+            "latitude":"37.711319",
+            "alignment":"",
+            "milepost":"428.49"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"BERKELEY  26 MIN",
+               "phase1Line2":"OAKLAND   25 MIN",
+               "phase1Line1":"SF DWNTWN 12 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"96",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"121",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"SR-24",
+            "nearbyPlace":"Oakland",
+            "longitude":"-122.264101",
+            "locationName":"CM096-ALA24 W/B SHATTUCK AVE and 55th",
+            "postmile":"2.97",
+            "postmilePrefix":"R",
+            "latitude":"37.840183",
+            "alignment":"",
+            "milepost":"1.05"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"OAK ARPT  15 MIN",
+               "phase1Line2":"SFO ARPT  28 MIN",
+               "phase1Line1":"SF DWNTWN 15 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"110",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"357",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"Castro Valley",
+            "longitude":"-122.038432",
+            "locationName":"CM110-W580 JEO CASTRO VALLEY BLVD",
+            "postmile":"27.21",
+            "postmilePrefix":"R",
+            "latitude":"37.70131",
+            "alignment":"",
+            "milepost":"43.41"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SM BRIDGE 20 MIN",
+               "phase1Line2":"RTE 24    19 MIN",
+               "phase1Line1":"HWY 13    14 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"111",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"West",
+            "elevation":"341",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"Dublin",
+            "longitude":"-121.881554",
+            "locationName":"CM111 WB 580 HACIENDA RD",
+            "postmile":"18.46",
+            "postmilePrefix":"",
+            "latitude":"37.701836",
+            "alignment":"",
+            "milepost":"34.64"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"WALNUT CK 20 MIN",
+               "phase1Line2":"SM BRIDGE 28 MIN",
+               "phase1Line1":"CASTRO VY 14 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251503,
+         "inService":"true"
+      },
+      {
+         "index":"42",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"San Francisco",
+            "direction":"North",
+            "elevation":"104",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"US-101",
+            "nearbyPlace":"San Francisco",
+            "longitude":"-122.403011",
+            "locationName":"CM042-SF101 N/B N/OF 23RD ST. OC",
+            "postmile":"3.47",
+            "postmilePrefix":"",
+            "latitude":"37.756045",
+            "alignment":"",
+            "milepost":"431.7"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"BERKELEY  22 MIN",
+               "phase1Line2":"OAKLAND   24 MIN",
+               "phase1Line1":"TRSR ISL  13 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251624,
+         "inService":"true"
+      },
+      {
+         "index":"109",
+         "recordTimestamp":{
+            "recordDate":"2017-04-03",
+            "recordTime":"13:34:03"
+         },
+         "location":{
+            "county":"Alameda",
+            "direction":"East",
+            "elevation":"65",
+            "district":"4",
+            "routeSuffix":"",
+            "route":"I-580",
+            "nearbyPlace":"San Leandro",
+            "longitude":"-122.1331",
+            "locationName":"CM109 E580 JEO GRAND AVE",
+            "postmile":"33.61",
+            "postmilePrefix":"R",
+            "latitude":"37.717766",
+            "alignment":"",
+            "milepost":"49.68"
+         },
+         "message":{
+            "phase1":{
+               "phase1Line3":"SM BRIDGE 15 MIN",
+               "phase1Line2":"LIVERMORE 23 MIN",
+               "phase1Line1":"DUBLIN    15 MIN",
+               "phase1Font":"Not Reported"
+            },
+            "phase2":{
+               "phase2Font":"Not Reported",
+               "phase2Line2":"",
+               "phase2Line3":"",
+               "phase2Line1":""
+            },
+            "display":"Not Reported",
+            "displayTime":"Not Reported",
+            "messageTimestamp":{
+               "messageTime":"13:33:33",
+               "messageDate":"2017-04-03"
+            }
+         },
+         "updateTimestamp":1491251624,
+         "inService":"true"
+      }
+   ]
+}
