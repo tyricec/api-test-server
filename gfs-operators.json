@@ -1,0 +1,174 @@
+{
+   "Operators":[
+      {
+         "CarrierID":"3D",
+         "LastGenerated":"3/16/2017 10:20:18 PM",
+         "CarrierName":"Tri Delta Transit"
+      },
+      {
+         "CarrierID":"AC",
+         "LastGenerated":"3/24/2017 9:39:27 PM",
+         "CarrierName":"AC Transit"
+      },
+      {
+         "CarrierID":"AM",
+         "LastGenerated":"3/17/2017 12:01:46 AM",
+         "CarrierName":"Capitol Corridor"
+      },
+      {
+         "CarrierID":"AT",
+         "LastGenerated":"10/25/2016 10:31:05 PM",
+         "CarrierName":"Angel Island Tiburon Ferry"
+      },
+      {
+         "CarrierID":"AY",
+         "LastGenerated":"8/30/2016 2:42:23 AM",
+         "CarrierName":"American Canyon Transit"
+      },
+      {
+         "CarrierID":"BA",
+         "LastGenerated":"3/28/2017 10:56:37 AM",
+         "CarrierName":"BART"
+      },
+      {
+         "CarrierID":"BG",
+         "LastGenerated":"3/10/2017 1:16:53 PM",
+         "CarrierName":"Blue & Gold Fleet"
+      },
+      {
+         "CarrierID":"CC",
+         "LastGenerated":"3/17/2017 10:45:55 AM",
+         "CarrierName":"County Connection"
+      },
+      {
+         "CarrierID":"CE",
+         "LastGenerated":"8/30/2016 2:52:09 AM",
+         "CarrierName":"Altamont Corridor Express"
+      },
+      {
+         "CarrierID":"CM",
+         "LastGenerated":"10/28/2016 10:09:56 AM",
+         "CarrierName":"Commute.org"
+      },
+      {
+         "CarrierID":"CT",
+         "LastGenerated":"3/17/2017 12:19:13 AM",
+         "CarrierName":"Caltrain"
+      },
+      {
+         "CarrierID":"DE",
+         "LastGenerated":"3/26/2017 9:02:18 PM",
+         "CarrierName":"Dumbarton Express"
+      },
+      {
+         "CarrierID":"EM",
+         "LastGenerated":"8/30/2016 2:53:43 AM",
+         "CarrierName":"Emery Go-Round"
+      },
+      {
+         "CarrierID":"FS",
+         "LastGenerated":"3/16/2017 3:46:24 PM",
+         "CarrierName":"Fairfield and Suisun Transit (FAST)"
+      },
+      {
+         "CarrierID":"GF",
+         "LastGenerated":"3/14/2017 2:57:24 PM",
+         "CarrierName":"Golden Gate Ferry"
+      },
+      {
+         "CarrierID":"GG",
+         "LastGenerated":"3/17/2017 12:29:21 AM",
+         "CarrierName":"Golden Gate Transit"
+      },
+      {
+         "CarrierID":"HF",
+         "LastGenerated":"3/16/2017 10:00:49 PM",
+         "CarrierName":"Alcatraz Hornblower Ferry"
+      },
+      {
+         "CarrierID":"MA",
+         "LastGenerated":"3/20/2017 3:46:22 PM",
+         "CarrierName":"Marin Transit"
+      },
+      {
+         "CarrierID":"MS",
+         "LastGenerated":"3/30/2017 2:01:28 PM",
+         "CarrierName":"Stanford Marguerite Shuttle"
+      },
+      {
+         "CarrierID":"PE",
+         "LastGenerated":"2/13/2017 2:38:42 PM",
+         "CarrierName":"Petaluma Transit"
+      },
+      {
+         "CarrierID":"RV",
+         "LastGenerated":"8/30/2016 3:06:30 AM",
+         "CarrierName":"Rio Vista Delta Breeze"
+      },
+      {
+         "CarrierID":"SA",
+         "LastGenerated":"11/30/2016 9:02:02 PM",
+         "CarrierName":"SMART"
+      },
+      {
+         "CarrierID":"SB",
+         "LastGenerated":"3/3/2017 4:58:24 PM",
+         "CarrierName":"San Francisco Bay Ferry"
+      },
+      {
+         "CarrierID":"SC",
+         "LastGenerated":"3/30/2017 5:13:55 PM",
+         "CarrierName":"VTA"
+      },
+      {
+         "CarrierID":"SF",
+         "LastGenerated":"3/17/2017 4:16:04 AM",
+         "CarrierName":"SFMTA"
+      },
+      {
+         "CarrierID":"SM",
+         "LastGenerated":"3/17/2017 4:45:35 AM",
+         "CarrierName":"SamTrans"
+      },
+      {
+         "CarrierID":"SO",
+         "LastGenerated":"12/17/2016 12:42:22 PM",
+         "CarrierName":"Sonoma County Transit"
+      },
+      {
+         "CarrierID":"SR",
+         "LastGenerated":"3/23/2017 2:05:21 PM",
+         "CarrierName":"Santa Rosa CityBus"
+      },
+      {
+         "CarrierID":"ST",
+         "LastGenerated":"3/29/2017 3:47:03 PM",
+         "CarrierName":"Soltrans"
+      },
+      {
+         "CarrierID":"UC",
+         "LastGenerated":"12/19/2016 11:17:29 AM",
+         "CarrierName":"Union City Transit"
+      },
+      {
+         "CarrierID":"VC",
+         "LastGenerated":"8/30/2016 3:30:01 AM",
+         "CarrierName":"Vacaville City Coach"
+      },
+      {
+         "CarrierID":"VN",
+         "LastGenerated":"7/15/2016 3:05:49 PM",
+         "CarrierName":"Vine (Napa County)"
+      },
+      {
+         "CarrierID":"WC",
+         "LastGenerated":"3/17/2017 4:47:48 AM",
+         "CarrierName":"WestCAT"
+      },
+      {
+         "CarrierID":"WH",
+         "LastGenerated":"3/17/2017 4:56:31 AM",
+         "CarrierName":"Wheels"
+      }
+   ]
+}
