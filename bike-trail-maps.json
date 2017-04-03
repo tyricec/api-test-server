@@ -1,0 +1,79 @@
+{
+   "page_number":1,
+   "paginate_by":7,
+   "count":6,
+   "objects":[
+      {
+         "id":1355,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Bay Area Ridge Trail",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/56/a3/56a314a2-3227-4729-985b-200ee8a26675/bay-area-ridge-trail.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/99/2d/992d0796-4d33-492b-8e18-6312b71ddd97/map-bay-area-ridge.jpg"
+      },
+      {
+         "id":1356,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Bay Bridge Trail",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/0c/d2/0cd25d6a-4bba-4943-9c46-6dc3e4c5b390/bay-bridge-trail.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/f4/f4/f4f423ec-bda0-48e3-9275-7d16376a66eb/map-bay-bridge.jpg"
+      },
+      {
+         "id":1357,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Richmond Bike Paths And Bay Trail",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/31/cb/31cb9fcf-d1a7-43c8-b0c3-af1d51bd57d0/richmond-bike-paths-and-bay-trail.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/22/55/2255750a-d23e-4137-b431-cb9abc91a0ce/map-richmond.jpg"
+      },
+      {
+         "id":1358,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"San Francisco Bay Trail",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/ed/88/ed88fe3d-73d5-48e4-8aa9-a611da3370a5/san-francisco-bay-trail.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/4a/6f/4a6f4e0d-858e-4a90-9e1b-03c7b2ced6e3/map-sfbay-trail.jpg"
+      },
+      {
+         "id":1359,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Transit To Trails",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/53/20/53209c33-2e93-4bf3-9f58-7280eacf996c/transit-to-trails.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/a4/ac/a4aca11f-3eaf-4aa3-a811-e9ba069f11fc/map-transit-trails.jpg"
+      },
+      {
+         "id":1360,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Walnut Creek Bike Trails",
+         "biking_type":"Bike Trail Maps",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/7a/8e/7a8eb2ec-3f3d-4216-a145-b18eb4f15385/walnut-creek-bike-trails.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/76/57/7657ec5a-4ff1-421a-aa9d-59e4d588d5c9/map-walnut-trails.jpg"
+      }
+   ]
+}
