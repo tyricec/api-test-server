@@ -1,0 +1,347 @@
+{
+   "page_number":1,
+   "paginate_by":10,
+   "count":51,
+   "objects":[
+      {
+         "id":970,
+         "name":"Dublin/Pleasanton BART Station Parking",
+         "description":"Hycienda Dr, Under Highway 580",
+         "source_id":26,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Dublin",
+            "neighborhood":null,
+            "line1":"5801 Owens Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.896205,
+                  37.70225
+               ]
+            }
+         },
+         "reg_lot":2787,
+         "mid_lot":0,
+         "acc_lot":97,
+         "car_lot":159,
+         "res_lot":1170
+      },
+      {
+         "id":1189,
+         "name":"Dublin/Pleasanton",
+         "description":"Hycienda Dr, Under Highway 580",
+         "source_id":327,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Dublin",
+            "neighborhood":null,
+            "line1":"5801 Owens Dr",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.896205,
+                  37.70225
+               ]
+            }
+         },
+         "reg_lot":2787,
+         "mid_lot":0,
+         "acc_lot":97,
+         "car_lot":159,
+         "res_lot":1170
+      },
+      {
+         "id":969,
+         "name":"Millbrae BART Station Parking",
+         "description":"On Rollins Rd, Near Millbre Ave",
+         "source_id":25,
+         "type":"TransitParking",
+         "daily_price":"$2.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Millbrae",
+            "neighborhood":null,
+            "line1":"200 North Rollins Rd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.38454,
+                  37.60105
+               ]
+            }
+         },
+         "reg_lot":2388,
+         "mid_lot":18,
+         "acc_lot":57,
+         "car_lot":21,
+         "res_lot":434
+      },
+      {
+         "id":1194,
+         "name":"Millbrae Caltrain/BART",
+         "description":"On Rollins Rd, Near Millbre Ave",
+         "source_id":341,
+         "type":"TransitParking",
+         "daily_price":"$2.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Millbrae",
+            "neighborhood":null,
+            "line1":"200 North Rollins Rd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.38454,
+                  37.60105
+               ]
+            }
+         },
+         "reg_lot":2388,
+         "mid_lot":18,
+         "acc_lot":57,
+         "car_lot":21,
+         "res_lot":434
+      },
+      {
+         "id":1191,
+         "name":"Pleasant Hill BART",
+         "description":"Between Oak Rd & Jones Rd, between Treat Blvd & Del Hombre Ln",
+         "source_id":331,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Pleasant Hill",
+            "neighborhood":null,
+            "line1":"1365 Treat Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.056615,
+                  37.929468
+               ]
+            }
+         },
+         "reg_lot":2259,
+         "mid_lot":0,
+         "acc_lot":42,
+         "car_lot":77,
+         "res_lot":457
+      },
+      {
+         "id":983,
+         "name":"Pleasant Hill BART Station Parking",
+         "description":"Between Oak Rd & Jones Rd, between Treat Blvd & Del Hombre Ln",
+         "source_id":39,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Pleasant Hill",
+            "neighborhood":null,
+            "line1":"1365 Treat Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.056615,
+                  37.929468
+               ]
+            }
+         },
+         "reg_lot":2259,
+         "mid_lot":0,
+         "acc_lot":42,
+         "car_lot":77,
+         "res_lot":457
+      },
+      {
+         "id":1190,
+         "name":"Fremont BART",
+         "description":"Between Walnut Ave & Mowry Ave, nearby Padre Pkwy",
+         "source_id":328,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Fremont",
+            "neighborhood":null,
+            "line1":"2000 BART Way",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.978627,
+                  37.560139
+               ]
+            }
+         },
+         "reg_lot":1933,
+         "mid_lot":60,
+         "acc_lot":33,
+         "car_lot":71,
+         "res_lot":557
+      },
+      {
+         "id":973,
+         "name":"Fremont BART Station Parking",
+         "description":"Between Walnut Ave & Mowry Ave, nearby Padre Pkwy",
+         "source_id":29,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Fremont",
+            "neighborhood":null,
+            "line1":"2000 BART Way",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -121.974582,
+                  37.556396
+               ]
+            }
+         },
+         "reg_lot":1933,
+         "mid_lot":60,
+         "acc_lot":33,
+         "car_lot":71,
+         "res_lot":557
+      },
+      {
+         "id":984,
+         "name":"Walnut Creek BART Station Parking",
+         "description":"Between Oakland Blvd & Pringle Ave",
+         "source_id":40,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Walnut Creek",
+            "neighborhood":null,
+            "line1":"200 Ygnacio Valley Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.06777,
+                  37.90478
+               ]
+            }
+         },
+         "reg_lot":2007,
+         "mid_lot":0,
+         "acc_lot":31,
+         "car_lot":36,
+         "res_lot":380
+      },
+      {
+         "id":965,
+         "name":"Daly City BART Station Parking",
+         "description":"Between St Charles Ave & Hillcrest Dr.",
+         "source_id":20,
+         "type":"TransitParking",
+         "daily_price":"$3.00 per Day",
+         "start":"12:00 AM",
+         "end":"12:00 AM",
+         "walk_time":3,
+         "contact":0,
+         "location":{
+            "zipCode":null,
+            "country":"",
+            "state":null,
+            "county":null,
+            "city":"Daly City",
+            "neighborhood":null,
+            "line1":"500 John Daly Blvd",
+            "line2":null,
+            "position":{
+               "type":"Point",
+               "coordinates":[
+                  -122.46792,
+                  37.70687
+               ]
+            }
+         },
+         "reg_lot":1774,
+         "mid_lot":67,
+         "acc_lot":47,
+         "car_lot":101,
+         "res_lot":434
+      }
+   ]
+}

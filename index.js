@@ -150,6 +150,15 @@ app.get('/gfs-operators', (req, res) => {
   }
 })
 
+app.get('/near-transit', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 50) % 2 === 0) {
+    res.sendFile('near-transit.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 let port = process.env.PORT || 9000
 
 app.listen(port)
