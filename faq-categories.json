@@ -1,0 +1,150 @@
+{
+   "page_number":1,
+   "paginate_by":100,
+   "count":13,
+   "objects":[
+      {
+         "id":5,
+         "title":"What\u2019s new with the 511.org website?",
+         "content":"<span style=\"color: rgb(56, 64, 71); font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; font-size: 14px; line-height: 22.4px;\">511 is excited to announce the NEW 511.org website launching in June. Plan your trip, get real-time transit departures and driving times, check current conditions, and more \u2013 all from your smartphone, tablet, laptop, or desktop computer.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":93,
+         "title":"What if I want more information?",
+         "content":"<a href=\"https://staging.511nextgen.org/feedback\" style=\"background-color: rgb(255, 255, 255); color: rgb(22, 125, 1); cursor: pointer; outline: 0px; font-family: Oxygen, sans-serif; font-size: 15px;\">Click here</a><span style=\"color: rgb(66, 66, 66); font-family: Oxygen, sans-serif; font-size: 15px;\">&nbsp;to use the 511 suggestions form. We appreciate your feedback and comments.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":6,
+         "title":"What new features and tools have been added?",
+         "content":"<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 22.4px; border: none; box-shadow: none; font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; color: rgb(56, 64, 71); background: none;\"><span style=\"line-height: 22.4px;\">The new 511.org is now easier to navigate. Desktop users will notice the main navigation tabs have moved from the top of the screen to the left side. We\u2019ve simplified the navigation to connect travelers to the content they access most often. Click on any of the icons to find the information you\u2019re looking for.&nbsp;</span></p><p style=\"margin-bottom: 25px; font-size: 14px; line-height: 22.4px; border: none; box-shadow: none; font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; color: rgb(56, 64, 71); background: none;\"><span style=\"line-height: 22.4px;\">We\u2019ve updated the previous transit trip planner with a multimodal trip planner that will allow users to switch between driving, transit, bicycling, and walking itineraries to compare trip options. Use the interactive map to find the latest traffic conditions and view traffic cameras, HOV and toll information, transit center locations, Bay Area Bike Share locations, and more.&nbsp;</span></p><p style=\"margin-bottom: 25px; font-size: 14px; line-height: 22.4px; border: none; box-shadow: none; font-family: 'Whitney SSm A', 'Whitney SSm B', sans-serif; color: rgb(56, 64, 71); background: none;\"><span style=\"line-height: 22.4px; background-color: initial;\">We\u2019ve also added a \u201cFor Employers\u201d section that provides information on the Bay Area Commuter Benefits Program and features case studies and resources for implementing workplace trip reduction strategies.</span></p>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":91,
+         "title":"Why make changes to 511.org?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">This major update to 511 is designed to improve the customer experience and provide easy access to Bay Area travel information for mobile, desktop, and telephone users.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":94,
+         "title":"How can I get real-time traffic updates?",
+         "content":"<p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">The new 511.org features a real-time map of traffic and alerts on the home page. Check it any time to see real-time traffic conditions and special alerts for your route. Or, you can call 511 to hear Driving Times for your route or Traffic Conditions for a city, highway, bridge, or hotspot.</p><p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\"><em>Be safe! Please check traffic conditions before you leave, call 511 for voice-activated travel information, or pull over to check your smartphone for updates</em>.</p>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":95,
+         "title":"How can I get real-time transit updates?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">You can always call 511 and say \u201cDeparture Times,\u201d or use the tool on the 511.org home page, for up-to-the-minute transit departure times. The interactive 511 trip planner allows for easy trip planning and system alerts.&nbsp;</span><a href=\"http://staging.511nextgen.org/transit/tracker/create\" style=\"background-color: rgb(255, 255, 255); color: rgb(22, 125, 1); cursor: pointer; outline: 0px; font-family: Oxygen, sans-serif; font-size: 14px;\">511 Transit Tracker</a><span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">&nbsp;tool allows you to customize your stops on your smartphone, tablet, or desktop computer and see real-time departure information any time you need it.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":92,
+         "title":"Is MY 511 changing?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">Yes. MY 511 will be discontinued both on the web and on the phone. Email/text alerts will end in June 2016. The new, mobile-friendly 511.org will replace MY 511. You\u2019ll be able to access the same, trusted, real-time travel information whenever you need it, wherever you are, on your favorite device.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":82,
+         "title":"This is a staging site FAQ question?",
+         "content":"Yes. It is. This is the answer,",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":86,
+         "title":"Can I still call 511 from my phone?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">Yes. 511 is fully automated and will help you get the information you need through simple voice commands. Just follow the voice prompts for real-time transit departures, driving times, traffic conditions, carpooling, vanpooling, parking, and transfers to transit agencies, Clipper, FasTrak, and Freeway Assist.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":88,
+         "title":"Can I use the new 511.org on my smartphone or tablet?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">Yes. 511.org is now fully mobile compatible. With the new 511, simply bookmark 511.org or save it to your smartphone or tablet home screen. You can bookmark the 511.org home page or the pages you use most often. Please use 511.org safely. If you need to check traffic conditions or plan a trip while driving, call 511 and use voice commands or pull over to check your phone.</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":89,
+         "title":"How do I bookmark 511.org on my smartphone, tablet or desktop?",
+         "content":"<span style=\"color: rgb(68, 68, 68); font-family: Oxygen, sans-serif; font-size: 14px;\">Create your own app-like button for 511.org or bookmark your favorite pages using your device\u2019s \u201cadd to home screen/desktop\u201d or \u201cbookmark\u201d feature. (This feature may vary by device.)</span>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":90,
+         "title":"Have any features or tools been discontinued?",
+         "content":"<p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">Live 511 operator service has been discontinued as of June 30, 2016. See \u201cCan I still call 511 from my phone\u201d for more information.</p><p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">The SchoolPool matching tool has been discontinued as of June 30, 2016.</p>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      },
+      {
+         "id":96,
+         "title":"What new features and tools have been added?",
+         "content":"<p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">The new 511.org is now easier to navigate. Desktop users will notice the main navigation tabs have moved from the top of the screen to the left side. We\u2019ve simplified the navigation to connect travelers to the content they access most often. Click on any of the icons to find the information you\u2019re looking for.</p><p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">We\u2019ve updated the previous transit trip planner with a multimodal trip planner that will allow users to&nbsp;switch between driving, transit, bicycling, and walking itineraries to compare trip options. Use the&nbsp;interactive map to find the latest traffic conditions and view traffic cameras, HOV and toll information,&nbsp;transit center locations, Bay Area Bike Share locations, and more.</p><p style=\"margin-top: 3px; margin-bottom: 0px; font-size: 15px; line-height: 24px; color: rgb(66, 66, 66); font-family: Oxygen, sans-serif;\">We\u2019ve also added a \u201cFor Employers\u201d section that provides information on the Bay Area Commuter Benefits&nbsp;Program and features case studies and resources for implementing workplace trip reduction strategies.</p>",
+         "short_content":null,
+         "category":{
+            "id":27,
+            "name":"Changes to 511",
+            "parent":"http://staging.511nextgen.org/api/public/v1/generic-content/categories/13/"
+         }
+      }
+   ]
+}
