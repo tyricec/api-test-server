@@ -51,6 +51,15 @@ app.get('/caltrans', (req, res) => {
   }
 })
 
+app.get('/transit-alerts', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 50) % 2 === 0) {
+    res.sendFile('transit-alerts.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 app.get('/transit-centers', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
   if (Math.floor(timer / 50) % 2 === 0) {
