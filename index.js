@@ -96,6 +96,15 @@ app.get('/bike-trail-maps', (req, res) => {
   }
 })
 
+app.get('/bridge-trail-maps', (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*')
+  if (Math.floor(timer / 50) % 2 === 0) {
+    res.sendFile('bridge-trail-maps.json', { root: __dirname })
+  } else {
+    res.sendStatus(404)
+  }
+})
+
 let port = process.env.PORT || 9000
 
 app.listen(port)

@@ -1,0 +1,31 @@
+{
+   "page_number":1,
+   "paginate_by":100,
+   "count":2,
+   "objects":[
+      {
+         "id":1354,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Bike Ped Path",
+         "biking_type":"Bay Bridge Trail",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/5e/b3/5eb3772d-f62d-4085-a08d-1cf908a98f3c/bike-ped-path.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/5b/5c/5b5c7fe6-2c20-4743-8b3a-8fba3a2fa3da/icon-bay-access.jpg"
+      },
+      {
+         "id":1353,
+         "category":{
+            "id":2,
+            "name":"Map Trails",
+            "parent":null
+         },
+         "name":"Bart Trail Access Points",
+         "biking_type":"Bay Bridge Trail",
+         "map_pdf":"https://mtc-ecs.s3.amazonaws.com/filer_public/c5/4b/c54b9ad1-3910-44c5-8e9c-d074a2ece01c/bart-trail-access-points.pdf",
+         "map_image":"https://mtc-ecs.s3.amazonaws.com/filer_public/f9/55/f955af32-8d02-47c2-b4a7-92aa9a23c1ba/icon-bay-trail.jpg"
+      }
+   ]
+}
