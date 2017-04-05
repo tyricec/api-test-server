@@ -6,6 +6,10 @@ let timer = 0;
 
 setInterval(() => { timer += 1 }, 1000);
 
+app.get('/', (req, res) => {
+  res.sendFile('index.html', { root: __dirname })
+})
+
 app.get('/events', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
   if (Math.floor(timer / 90) % 2 === 0) {
