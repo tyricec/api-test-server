@@ -5,53 +5,89 @@
       font-size: 1.6em;
       height: 50px;
     }
+    
     .timer-container img {
       height: 50%;
       width: auto;
     }
   </style>
 </head>
-<h1>50 Second APIs</h1>
-<div class="timer-container" id="short">
-  <span class="timer"></span>
-  <img alt="Status of short timed apis"></span>
-</div>
-<h1>70 Second APIs</h1>
-<div class="timer-container" id="med">
-  <span class="timer"></span>
-  <img alt="Status of medium timed apis"></span>
-</div>
-<h1>90 Second APIs</h1>
-<div class="timer-container" id="long">
-  <span class="timer"></span>
-  <img alt="Status of long timed apis"></span>
+<div class="app-container">
+  <h1>Test APIs</h1>
 </div>
 <script>
-  const socket = new WebSocket('ws://lit-waters-25881.herokuapp.com/')
+  (function () {
+    const host = "lit-waters-25881.herokuapp.com"
+    // API List
+    const timer = {
+      subs: {},
+      on: function(name, cb) {
+        if (this.subs[name]) {
+          this.subs[name].push(cb)
+        } else {
+          this.subs[name] = [cb]
+        }
 
-  const shortElement = document.getElementById('short')
-  const medElement = document.getElementById('med')
-  const longElement = document.getElementById('long')
-
-  socket.addEventListener('open', function(event) {
-    console.log('Connected')
-  })
-  socket.addEventListener('message', function(event) {
-    if (event.data) {
-      var timer = JSON.parse(event.data)
-
-      if (timer.short) {
-        shortElement.querySelector('.timer').innerHTML = timer.short
-        shortElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
-      }
-      if (timer.med) {
-        medElement.querySelector('.timer').innerHTML = timer.med
-        medElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
-      }
-      if (timer.long) {
-        longElement.querySelector('.timer').innerHTML  = timer.long
-        longElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
+        return function() {
+          this.subs[name].splice(this.subs[name].indexOf(cb))
+        }
+      },
+      update: function(time) {
+        if (this.subs.update) {
+          this.subs.update.forEach(cb => cb(time))
+        }
       }
     }
-  })
+
+    fetch('http://' + host + '/config')
+      .then(res => {
+        res.json()
+          .then(data => {
+            data.forEach(api => {
+              const container = document.createElement('div')
+              const endpoint = document.createElement('a')
+              const name = document.createElement('h2')
+              const timeBar = document.createElement('div')
+
+              container.className = 'api'
+
+              container.style.width = "100%";
+              timeBar.style.width = "100%";
+              timeBar.style.height = '12px'
+              
+              timeBar.style.backgroundColor = 'black'
+
+              name.innerHTML = api.name
+              
+              endpoint.href = api.endpoint
+
+              document.querySelector('.app-container').appendChild(container)
+              endpoint.appendChild(name)
+              container.appendChild(endpoint)
+              container.appendChild(timeBar)
+
+              timer.on('update', function(time) {
+                 let timeRemaining = api.interval - time % api.interval
+                 let progress = (timeRemaining / api.interval) * 100
+                 let isUp = Math.floor(time / api.interval) % 2 === 0
+
+                 timeBar.style.width = progress + "%"
+                 timeBar.style.backgroundColor = isUp ? 'green' : 'red'
+              })
+            })
+          })
+      })
+
+    // WebSocket
+    const socket = new WebSocket('ws://' + host)
+
+    socket.addEventListener('open', function (event) {
+      console.log('Connected')
+    })
+    socket.addEventListener('message', function (event) {
+      if (event.data) {
+        timer.update(Number.parseFloat(event.data))
+      }
+    })
+  })()
 </script>
