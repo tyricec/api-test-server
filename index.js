@@ -7,7 +7,7 @@ let timer = 0;
 setInterval(() => { timer += 1 }, 1000);
 
 app.get('/', (req, res) => {
-  res.sendFile('index.html', { root: __dirname })
+  res.sendFile('client/index.html', { root: __dirname })
 })
 
 app.get('/events', (req, res) => {
@@ -190,7 +190,10 @@ app.get('/vanpool', (req, res) => {
   }
 })
 
+app.use(express.static('client'))
+
 let port = process.env.PORT || 9000
 
 app.listen(port)
+
 console.log(`Started on port ${port}`)
