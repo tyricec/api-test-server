@@ -1,1 +1,57 @@
-<h1>Test API Notice</h1>
+<head>
+  <style>
+    .timer-container {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.6em;
+      height: 50px;
+    }
+    .timer-container img {
+      height: 50%;
+      width: auto;
+    }
+  </style>
+</head>
+<h1>50 Second APIs</h1>
+<div class="timer-container" id="short">
+  <span class="timer"></span>
+  <img alt="Status of short timed apis"></span>
+</div>
+<h1>70 Second APIs</h1>
+<div class="timer-container" id="med">
+  <span class="timer"></span>
+  <img alt="Status of medium timed apis"></span>
+</div>
+<h1>90 Second APIs</h1>
+<div class="timer-container" id="long">
+  <span class="timer"></span>
+  <img alt="Status of long timed apis"></span>
+</div>
+<script>
+  const socket = new WebSocket('ws://localhost:9000')
+
+  const shortElement = document.getElementById('short')
+  const medElement = document.getElementById('med')
+  const longElement = document.getElementById('long')
+
+  socket.addEventListener('open', function(event) {
+    console.log('Connected')
+  })
+  socket.addEventListener('message', function(event) {
+    if (event.data) {
+      var timer = JSON.parse(event.data)
+
+      if (timer.short) {
+        shortElement.querySelector('.timer').innerHTML = timer.short
+        shortElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
+      }
+      if (timer.med) {
+        medElement.querySelector('.timer').innerHTML = timer.med
+        medElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
+      }
+      if (timer.long) {
+        longElement.querySelector('.timer').innerHTML  = timer.long
+        longElement.querySelector('img').src = timer.isDown ? '/xmark.png' : '/checkmark.png'
+      }
+    }
+  })
+</script>
