@@ -8,13 +8,13 @@ let listeners = {}
 let timer = 0
 
 setInterval(() => { 
-  timer += .05
+  timer += .10
   Object.keys(listeners).forEach((clientId) => {
     let socket = listeners[clientId]
 
     socket.write(createSocketMessage(timer.toString()))
   }) 
-}, 50)
+}, 100)
 
 app.get('/', (req, res) => {
   res.sendFile('client/index.html', { root: __dirname })

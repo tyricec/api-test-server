@@ -1,29 +1,54 @@
 <head>
   <style>
-    body, html {
+    body,
+    html {
       background-color: #fff;
       margin: 0;
-    }
-    .app-container {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 10px;
-      padding: 5px;
-    }
-    
-    .api {
-      border: 1px solid black;
-      margin: 5px;
+      padding: 0;
     }
 
+    h2 {
+      font-size: 1.2em;
+      margin: 0;
+    }
+    
+    .app-container {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .api {
+      float: left;
+      width: 250px;
+      border: 1px solid #c8c8c8;
+      box-shadow: 5px 5px 10px #7f7f7f;
+      margin: 10px;
+    }
+    
     .api a {
       color: #444499;
       text-decoration: none;
+      text-align: center;
+      font-size: 12px;
       margin: 10px;
       display: block
     }
-    
-    h2 {
-      font-size: 1.2em
+
+    .app-container > h1 {
+      background-color: #9754bb;
+      border: 2px solid #6f5288;
+      color: #fff;
+      padding: 10px;
+    }
+
+    .api h2 {
+      text-align: center;
+      margin: 10px 0px;
+    }
+
+    .timer {
+      position: relative;
+      width: 125px;
+      margin: auto;
     }
   </style>
 </head>
@@ -36,18 +61,18 @@
     // API List
     const timer = {
       subs: {},
-      on: function(name, cb) {
+      on: function (name, cb) {
         if (this.subs[name]) {
           this.subs[name].push(cb)
         } else {
           this.subs[name] = [cb]
         }
 
-        return function() {
+        return function () {
           this.subs[name].splice(this.subs[name].indexOf(cb))
         }
       },
-      update: function(time) {
+      update: function (time) {
         if (this.subs.update) {
           this.subs.update.forEach(cb => cb(time))
         }
@@ -62,36 +87,73 @@
               const container = document.createElement('div')
               const endpoint = document.createElement('a')
               const name = document.createElement('h2')
-              const timeBar = document.createElement('div')
+              const statusContainer = document.createElement('div')
+              const timeBar = document.createElement('canvas')
+              const countdown = document.createElement('span')
+              
+              const timerSize = 125
 
               container.className = 'api'
 
-              container.style.width = "100%";
-              timeBar.style.width = "100%";
-              timeBar.style.height = '4px'
-              
-              timeBar.style.backgroundColor = '#4b4bbd'
+              timeBar.width = timerSize
+              timeBar.height = timerSize
+
+              countdown.style.position = 'absolute'
+              countdown.style.top = (timerSize / 2)  - (timerSize / 16)
+              countdown.style.left = (timerSize / 2) - (timerSize / 8)
 
               name.innerHTML = api.name
-              
+
+              statusContainer.className = 'timer'
+
               endpoint.href = api.endpoint
+              endpoint.innerHTML = 'http://' + host + api.endpoint
 
               document.querySelector('.app-container').appendChild(container)
-              endpoint.appendChild(name)
+              statusContainer.appendChild(timeBar)
+              statusContainer.appendChild(countdown)
+              container.appendChild(name)
               container.appendChild(endpoint)
-              container.appendChild(timeBar)
+              container.appendChild(statusContainer)
 
-              timer.on('update', function(time) {
-                 let timeRemaining = api.interval - time % api.interval
-                 let progress = (timeRemaining / api.interval) * 100
-                 let isUp = Math.floor(time / api.interval) % 2 === 0
+              timer.on('update', function (time) {
+                let timeRemaining = api.interval - time % api.interval
+                let progress = (time / api.interval)
+                let isUp = Math.floor(time / api.interval) % 2 === 0
 
-                 timeBar.style.width = progress + "%"
-                 container.style.backgroundColor = isUp ? '#99ff99' : '#ff9999'
+                let statusColor = isUp ? '#398839' : '#a84949'
+
+                countdown.innerHTML = (Math.floor(timeRemaining * 10) / 10).toFixed(1)
+                countdown.style.color = statusColor
+
+                window.requestAnimationFrame(drawIndicator(timeBar, progress, statusColor, timeRemaining))
               })
             })
           })
       })
+
+    function drawIndicator(canvas, progress, color, time) {
+      return function () {
+        if (canvas.getContext) {
+          var ctx = canvas.getContext('2d')
+          ctx.beginPath()
+          ctx.clearRect(0, 0, 125, 125)
+          ctx.lineWidth = 10
+          ctx.strokeStyle = 'rgba(195, 195, 195, 0.5)'
+          ctx.save()
+          ctx.arc(62.5, 62.5, 50, 0, 2* Math.PI, true)
+          ctx.stroke()
+          ctx.restore()
+
+          ctx.beginPath()
+          ctx.lineWidth = 10
+          ctx.strokeStyle = color
+          ctx.save()
+          ctx.arc(62.5, 62.5, 50, 3 * Math.PI / 2, (7 * Math.PI / 2) + (2 * Math.PI * progress), true)
+          ctx.stroke()
+        }
+      }
+    }
 
     // WebSocket
     const socket = new WebSocket('ws://' + host)
@@ -105,4 +167,5 @@
       }
     })
   })()
+
 </script>
