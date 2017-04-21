@@ -27,6 +27,9 @@ config.forEach(api => {
     res.header('Access-Control-Allow-Origin', '*')
     if (api.goodResponse && api.badResponse) {
       if (Math.floor(timer / api.interval) % 2 === 0) {
+        Object.keys(api.headers).forEach((header) => {
+          res.setHeader(header, api.headers[header])
+        })
         res.sendFile(api.goodResponse, { root: __dirname })
       } else {
         res.sendFile(api.badResponse, { root: __dirname })
