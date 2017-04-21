@@ -25,7 +25,14 @@ var config = require('./api.json')
 config.forEach(api => {
   app.get(api.endpoint, (req, res) => {
     res.header('Access-Control-Allow-Origin', '*')
-    if (Math.floor(timer / api.interval) % 2 === 0) {
+    if (api.goodResponse && api.badResponse) {
+      if (Math.floor(timer / api.interval) % 2 === 0) {
+        res.sendFile(api.goodResponse, { root: __dirname })
+      } else {
+        res.sendFile(api.badResponse, { root: __dirname })
+      }
+    }
+    else if (Math.floor(timer / api.interval) % 2 === 0) {
       res.sendFile(api.path, { root: __dirname })
     } else {
       res.sendStatus(404)
