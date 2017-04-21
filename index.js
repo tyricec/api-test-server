@@ -33,8 +33,10 @@ config.forEach(api => {
 
     if (api.goodResponse && api.badResponse) {
       if (Math.floor(timer / api.interval) % 2 === 0) {
+        res.status(api.goodStatus)
         res.sendFile(api.goodResponse, { root: __dirname })
       } else {
+        res.status(api.badStatus)
         res.sendFile(api.badResponse, { root: __dirname })
       }
     }
