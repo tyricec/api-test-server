@@ -16,6 +16,8 @@ setInterval(() => {
   }) 
 }, 100)
 
+app.enable('etag')
+
 app.get('/', (req, res) => {
   res.sendFile('client/index.html', { root: __dirname })
 })
