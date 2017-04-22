@@ -1,7 +1,7 @@
 [{
 	"name": "Realtime Parking",
 	"interval": 120,
-	"headers": {"Cache-Control": "public,max-age=85492"},
+	"headers": {"Cache-Control": "public,max-age=360"},
 	"goodStatus": 200,
 	"badStatus": 200,
 	"goodResponse": "json/realtime-parking-new.json",
