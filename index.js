@@ -27,10 +27,14 @@ var config = require('./api.json')
 config.forEach(api => {
   app.get(api.endpoint, (req, res) => {
     res.header('Access-Control-Allow-Origin', '*')
-    Object.keys(api.headers).forEach((header) => {
-      res.setHeader(header, api.headers[header])
-    })
-
+    if (api.headers) {
+      Object.keys(api.headers).forEach((header) => {
+        res.setHeader(header, api.headers[header])
+      })
+    }
+    if (!api.headers || !api.headers['Cache-Control']) {
+      res.setHeader('Cache-Control', `public;max-age=${Math.floor(Math.abs(api.interval - timer))}`)
+    }
     if (api.goodResponse && api.badResponse) {
       if (Math.floor(timer / api.interval) % 2 === 0) {
         res.status(api.goodStatus)
