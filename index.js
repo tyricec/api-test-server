@@ -49,6 +49,7 @@ config.forEach(api => {
     } else {
       res.sendStatus(404)
     }
+    console.log('Web request made')
   })
 })
 
