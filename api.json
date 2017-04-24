@@ -2,7 +2,7 @@
 	"name": "Realtime Parking",
 	"interval": 120,
   "headers": {
-		"Cache-Control": "public,max-age=10"
+		"Cache-Control": "public,max-age=50"
 	},
 	"goodStatus": 200,
 	"badStatus": 200,
