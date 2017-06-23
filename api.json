@@ -1,12 +1,12 @@
 [{
-	"name": "Realtime Parking",
-	"interval": 120,
+	"name": "Blogger Posts",
+	"interval": 60,
   "headers": {
 		"Cache-Control": "public,max-age=50"
 	},
 	"goodStatus": 200,
-	"badStatus": 200,
-	"goodResponse": "json/realtime-parking-new.json",
-	"badResponse": "json/realtime-parking-stale.json",
-	"endpoint": "/parking"
+	"badStatus": 500,
+	"goodResponse": "json/blogger-posts.json",
+	"badResponse": "json/blogger-posts.json",
+	"endpoint": "/blogger-posts"
 }]
