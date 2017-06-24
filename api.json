@@ -1,12 +1,21 @@
 [{
 	"name": "Blogger Posts",
-	"interval": 60,
-  "headers": {
-		"Cache-Control": "public,max-age=50"
-	},
-	"goodStatus": 200,
-	"badStatus": 500,
-	"goodResponse": "json/blogger-posts.json",
-	"badResponse": "json/blogger-posts.json",
+	"interval": 50,
+	"responses": [{
+		"response": "json/blogger-posts.json",
+		"headers": {
+			"Cache-Control"	: "public;max-age=30"
+		},
+		"status": 200,
+		"timeToLive": 45 
+	}, {
+		"response": "json/blogger-posts-two.json",
+		"status": 200,
+		"timeToLive": 20
+	}, {
+		"response": "json/error.json",
+		"status": 500,
+		"timeToLive": 75 
+	}],
 	"endpoint": "/blogger-posts"
 }]

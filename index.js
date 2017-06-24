@@ -5,6 +5,7 @@ const app = express()
 const wsMagic = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11'
 
 let listeners = {}
+let apis = {}
 let timer = 0
 
 setInterval(() => { 
@@ -25,31 +26,34 @@ app.get('/', (req, res) => {
 var config = require('./api.json')
 
 config.forEach(api => {
+  apis[api.name] = {
+    current: api.responses[0],
+    responses: api.responses,
+    index: 0,
+  }
+
+  startResponseLifecycle(api)
+  
   app.get(api.endpoint, (req, res) => {
+    const currentResponse = apis[api.name].current
+
     res.header('Access-Control-Allow-Origin', '*')
-    if (api.headers) {
-      Object.keys(api.headers).forEach((header) => {
-        res.setHeader(header, api.headers[header])
+
+    if (currentResponse.headers) {
+      Object.keys(currentResponse.headers).forEach((header) => {
+        res.setHeader(header, currentResponse.headers[header])
       })
     }
-    if (!api.headers || !api.headers['Cache-Control']) {
+    if (!currentResponse.headers || !currentResponse.headers['Cache-Control']) {
       res.setHeader('Cache-Control', `public;max-age=${Math.floor(Math.abs(api.interval - timer))}`)
     }
-    if (api.goodResponse && api.badResponse) {
-      if (Math.floor(timer / api.interval) % 2 === 0) {
-        res.status(api.goodStatus)
-        res.sendFile(api.goodResponse, { root: __dirname })
-      } else {
-        res.status(api.badStatus)
-        res.sendFile(api.badResponse, { root: __dirname })
-      }
-    }
-    else if (Math.floor(timer / api.interval) % 2 === 0) {
-      res.sendFile(api.path, { root: __dirname })
+    if (currentResponse.response) {
+      res.status(currentResponse.status)
+      res.sendFile(currentResponse.response, { root: __dirname })
     } else {
-      res.sendStatus(404)
+      res.status(500);
+      res.send('Error with api configuration')
     }
-    console.log(`Request Made from: ${req.query['id']}`)
   })
 })
 
@@ -78,6 +82,21 @@ app.listen(port).on('upgrade', (req, socket) => {
     socket.write(response)
   }
 })
+
+function startResponseLifecycle(api) {
+  const apiState = apis[api.name]
+
+  const current = apiState.current
+
+  setTimeout(() => {
+    const nextIndex = apiState.index + 1 >= apiState.responses.length ?
+      0 : apiState.index + 1;
+
+    apiState.current = apiState.responses[nextIndex]
+    apiState.index = nextIndex
+    startResponseLifecycle(api)
+  }, current.timeToLive * 1000);
+}
 
 function createSocketMessage(message) {
   let buf = Buffer.alloc(message.length + 2)
