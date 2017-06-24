@@ -18,7 +18,7 @@
 		},
 		"response": "json/blogger-posts-two.json",
 		"status": 200,
-		"timeToLive": 20
+		"timeToLive": 65
 	}, {
 		"info": {
 			"color": "#af6666",
