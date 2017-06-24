@@ -1,6 +1,5 @@
 [{
 	"name": "Blogger Posts",
-	"interval": 50,
 	"responses": [{
 		"info": {
 			"color": "#6666af",
