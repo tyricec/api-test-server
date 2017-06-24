@@ -11,7 +11,7 @@
       font-size: 1.2em;
       margin: 0;
     }
-    
+
     .app-container {
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -23,7 +23,7 @@
       box-shadow: 5px 5px 10px #7f7f7f;
       margin: 10px;
     }
-    
+
     .api a {
       color: #444499;
       text-decoration: none;
@@ -33,7 +33,7 @@
       display: block
     }
 
-    .app-container > h1 {
+    .app-container>h1 {
       background-color: #9754bb;
       border: 2px solid #6f5288;
       color: #fff;
@@ -57,101 +57,101 @@
 </div>
 <script>
   (function () {
-    const host = "lit-waters-25881.herokuapp.com"
+    const host = "192.168.1.75:9000"
     // API List
-    const timer = {
-      subs: {},
-      on: function (name, cb) {
-        if (this.subs[name]) {
-          this.subs[name].push(cb)
-        } else {
-          this.subs[name] = [cb]
-        }
-
-        return function () {
-          this.subs[name].splice(this.subs[name].indexOf(cb))
-        }
-      },
-      update: function (time) {
-        if (this.subs.update) {
-          this.subs.update.forEach(cb => cb(time))
-        }
-      }
-    }
+    const apiState = {}
 
     fetch('http://' + host + '/config')
       .then(res => {
         res.json()
           .then(data => {
             data.forEach(api => {
-              const container = document.createElement('div')
-              const endpoint = document.createElement('a')
-              const name = document.createElement('h2')
-              const statusContainer = document.createElement('div')
-              const timeBar = document.createElement('canvas')
-              const countdown = document.createElement('span')
-              
-              const timerSize = 125
-
-              container.className = 'api'
-
-              timeBar.width = timerSize
-              timeBar.height = timerSize
-
-              countdown.style.position = 'absolute'
-              countdown.style.top = (timerSize / 2)  - (timerSize / 16)
-              countdown.style.left = (timerSize / 2) - (timerSize / 8)
-
-              name.innerHTML = api.name
-
-              statusContainer.className = 'timer'
-
-              endpoint.href = api.endpoint
-              endpoint.innerHTML = 'http://' + host + api.endpoint
-
-              document.querySelector('.app-container').appendChild(container)
-              statusContainer.appendChild(timeBar)
-              statusContainer.appendChild(countdown)
-              container.appendChild(name)
-              container.appendChild(endpoint)
-              container.appendChild(statusContainer)
-
-              timer.on('update', function (time) {
-                let timeRemaining = api.interval - time % api.interval
-                let progress = (time / api.interval)
-                let isUp = Math.floor(time / api.interval) % 2 === 0
-
-                let statusColor = isUp ? '#398839' : '#a84949'
-
-                countdown.innerHTML = (Math.floor(timeRemaining * 10) / 10).toFixed(1)
-                countdown.style.color = statusColor
-
-                window.requestAnimationFrame(drawIndicator(timeBar, progress, statusColor, timeRemaining))
-              })
+              const apiIndicator = createApiIndicator(api)
+              window.requestAnimationFrame(drawIndicator(apiIndicator, api.name))
             })
           })
       })
 
-    function drawIndicator(canvas, progress, color, time) {
+    function drawIndicator(apiIndicator, name) {
       return function () {
-        if (canvas.getContext) {
-          var ctx = canvas.getContext('2d')
-          ctx.beginPath()
-          ctx.clearRect(0, 0, 125, 125)
-          ctx.lineWidth = 10
-          ctx.strokeStyle = 'rgba(195, 195, 195, 0.5)'
-          ctx.save()
-          ctx.arc(62.5, 62.5, 50, 0, 2* Math.PI, true)
-          ctx.stroke()
-          ctx.restore()
+        const currentApiState = apiState[name]
 
-          ctx.beginPath()
-          ctx.lineWidth = 10
-          ctx.strokeStyle = color
-          ctx.save()
-          ctx.arc(62.5, 62.5, 50, 3 * Math.PI / 2, (7 * Math.PI / 2) + (2 * Math.PI * progress), true)
-          ctx.stroke()
+        if (currentApiState) {
+
+          let timeRemaining = currentApiState.current.timeToLive - Math.floor((Date.now() - currentApiState.lastUpdated) / 100) / 10 % currentApiState.current.timeToLive
+          let progress = Math.floor((Date.now() - currentApiState.lastUpdated) / 100) / 10 / currentApiState.current.timeToLive
+
+          let color = '#7777ff'
+
+          apiIndicator.countdown.innerHTML = (Math.floor(timeRemaining * 10) / 10).toFixed(1)
+          apiIndicator.countdown.style.color = color
+
+          if (apiIndicator.timeBar.getContext) {
+            var ctx = apiIndicator.timeBar.getContext('2d')
+            ctx.beginPath()
+            ctx.clearRect(0, 0, 125, 125)
+            ctx.lineWidth = 10
+            ctx.strokeStyle = 'rgba(195, 195, 195, 0.5)'
+            ctx.save()
+            ctx.arc(62.5, 62.5, 50, 0, 2 * Math.PI, true)
+            ctx.stroke()
+            ctx.restore()
+
+            ctx.beginPath()
+            ctx.lineWidth = 10
+            ctx.strokeStyle = color
+            ctx.save()
+            ctx.arc(62.5, 62.5, 50, 3 * Math.PI / 2, (7 * Math.PI / 2) + (2 * Math.PI * progress), true)
+            ctx.stroke()
+          }
+
+          window.requestAnimationFrame(drawIndicator(apiIndicator, name))
+        } else {
+          return window.requestAnimationFrame(drawIndicator(apiIndicator, name))
         }
+      }
+    }
+
+    function createApiIndicator(api) {
+      const container = document.createElement('div')
+      const endpoint = document.createElement('a')
+      const name = document.createElement('h2')
+      const statusContainer = document.createElement('div')
+      const timeBar = document.createElement('canvas')
+      const countdown = document.createElement('span')
+
+      const timerSize = 125
+
+      container.className = 'api'
+
+      timeBar.width = timerSize
+      timeBar.height = timerSize
+
+      countdown.style.position = 'absolute'
+      countdown.style.top = (timerSize / 2) - (timerSize / 16)
+      countdown.style.left = (timerSize / 2) - (timerSize / 8)
+
+      name.innerHTML = api.name
+
+      statusContainer.className = 'timer'
+
+      endpoint.href = api.endpoint
+      endpoint.innerHTML = 'http://' + host + api.endpoint
+
+      document.querySelector('.app-container').appendChild(container)
+      statusContainer.appendChild(timeBar)
+      statusContainer.appendChild(countdown)
+      container.appendChild(name)
+      container.appendChild(endpoint)
+      container.appendChild(statusContainer)
+
+      return {
+        container,
+        endpoint,
+        name,
+        statusContainer,
+        timeBar,
+        countdown
       }
     }
 
@@ -162,9 +162,7 @@
       console.log('Connected')
     })
     socket.addEventListener('message', function (event) {
-      if (event.data) {
-        timer.update(Number.parseFloat(event.data))
-      }
+      Object.assign(apiState, JSON.parse(event.data));
     })
   })()
 
