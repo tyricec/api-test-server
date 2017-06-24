@@ -25,6 +25,7 @@ config.forEach(api => {
     current: api.responses[0],
     responses: api.responses,
     index: 0,
+    lastUpdated: Date.now()
   }
 
   startResponseLifecycle(api)
@@ -86,14 +87,13 @@ function startResponseLifecycle(api) {
 
   const current = apiState.current
 
-  apiState.lastUpdated = Date.now()
-
   setTimeout(() => {
     const nextIndex = apiState.index + 1 >= apiState.responses.length ?
       0 : apiState.index + 1;
 
     apiState.current = apiState.responses[nextIndex]
     apiState.index = nextIndex
+    apiState.lastUpdated = Date.now()
 
     stateEmitter.emit('update')
 

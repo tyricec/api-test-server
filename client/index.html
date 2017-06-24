@@ -12,6 +12,11 @@
       margin: 0;
     }
 
+    h3 {
+      font-size: 1.0em;
+      margin: 0;
+    }
+
     .app-container {
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -40,7 +45,7 @@
       padding: 10px;
     }
 
-    .api h2 {
+    .api h2, .api h3 {
       text-align: center;
       margin: 10px 0px;
     }
@@ -55,22 +60,31 @@
 <div class="app-container">
   <h1>Test APIs</h1>
 </div>
+<script src="/EventEmitter.min.js"></script>
 <script>
   (function () {
-    const host = "192.168.1.75:9000"
+    const host = "lit-waters-25881.herokuapp.com"
     // API List
-    const apiState = {}
+    let apiState = {}
+    let apiIndicator = {}
+    const apiStateEmitter = new EventEmitter()
 
-    fetch('http://' + host + '/config')
-      .then(res => {
-        res.json()
-          .then(data => {
-            data.forEach(api => {
-              const apiIndicator = createApiIndicator(api)
-              window.requestAnimationFrame(drawIndicator(apiIndicator, api.name))
+    function loadDashBoard() {
+      fetch('http://' + host + '/config')
+        .then(res => {
+          res.json()
+            .then(data => {
+              data.forEach(api => {
+                Object.assign(apiIndicator, createApiIndicator(api))
+                apiStateEmitter.on('update', () => {
+                  apiIndicator.responseName.innerHTML = apiState[api.name].current.info.name
+                })
+                apiIndicator.responseName.innerHTML = apiState[api.name].current.info.name
+                window.requestAnimationFrame(drawIndicator(apiIndicator, api.name))
+              })
             })
-          })
-      })
+        })
+    }
 
     function drawIndicator(apiIndicator, name) {
       return function () {
@@ -81,7 +95,7 @@
           let timeRemaining = currentApiState.current.timeToLive - Math.floor((Date.now() - currentApiState.lastUpdated) / 100) / 10 % currentApiState.current.timeToLive
           let progress = Math.floor((Date.now() - currentApiState.lastUpdated) / 100) / 10 / currentApiState.current.timeToLive
 
-          let color = '#7777ff'
+          let color = currentApiState.current.info.color
 
           apiIndicator.countdown.innerHTML = (Math.floor(timeRemaining * 10) / 10).toFixed(1)
           apiIndicator.countdown.style.color = color
@@ -119,6 +133,9 @@
       const statusContainer = document.createElement('div')
       const timeBar = document.createElement('canvas')
       const countdown = document.createElement('span')
+      const responseName = document.createElement('h3')
+
+      const currentApiState =apiState[api.name]
 
       const timerSize = 125
 
@@ -142,6 +159,7 @@
       statusContainer.appendChild(timeBar)
       statusContainer.appendChild(countdown)
       container.appendChild(name)
+      container.appendChild(responseName)
       container.appendChild(endpoint)
       container.appendChild(statusContainer)
 
@@ -151,7 +169,8 @@
         name,
         statusContainer,
         timeBar,
-        countdown
+        countdown,
+        responseName
       }
     }
 
@@ -160,9 +179,11 @@
 
     socket.addEventListener('open', function (event) {
       console.log('Connected')
+      loadDashBoard()
     })
     socket.addEventListener('message', function (event) {
       Object.assign(apiState, JSON.parse(event.data));
+      apiStateEmitter.emit('update')
     })
   })()
 

@@ -2,6 +2,10 @@
 	"name": "Blogger Posts",
 	"interval": 50,
 	"responses": [{
+		"info": {
+			"color": "#6666af",
+			"name": "Blogger - One Post"
+		},
 		"response": "json/blogger-posts.json",
 		"headers": {
 			"Cache-Control"	: "public;max-age=30"
@@ -9,10 +13,18 @@
 		"status": 200,
 		"timeToLive": 45 
 	}, {
+		"info": {
+			"color": "#66af66",
+			"name": "Blogger - Two Posts"
+		},
 		"response": "json/blogger-posts-two.json",
 		"status": 200,
 		"timeToLive": 20
 	}, {
+		"info": {
+			"color": "#af6666",
+			"name": "Blogger Error"
+		},
 		"response": "json/error.json",
 		"status": 500,
 		"timeToLive": 75 
