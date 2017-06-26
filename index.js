@@ -1,27 +1,16 @@
 const crypto = require('crypto')
 const express = require('express')
 const EventEmitter = require('events')
-var AWS = require("aws-sdk");
-
-AWS.config.update({
-  region: "us-west-2",
-  endpoint: "http://localhost:8000"
-});
 
 const app = express()
 const http = require('http');
 const url = require('url');
 const WebSocket = require('ws');
 
+let listeners = {}
 let apis = {}
-let apiConfig = {}
 
 const stateEmitter = new EventEmitter()
-const docClient = new AWS.DynamoDB.DocumentClient();
-
-const params = {
-  TableName: "Config",
-};
 
 app.enable('etag')
 
@@ -29,58 +18,41 @@ app.get('/', (req, res) => {
   res.sendFile('client/index.html', { root: __dirname })
 })
 
-docClient.scan(params, onScan);
+var config = require('./api.json')
 
-function onScan(err, data) {
-  if (err) {
-    console.error("Unable to scan the table. Error JSON:", JSON.stringify(err, null, 2));
-  } else {
-    // print all the movies
-    console.log("Scan succeeded.");
-    apiConfig = data.Items
-    data.Items.forEach(function (api) {
-      apis[api.name] = {
-        current: api.responses[0],
-        responses: api.responses,
-        index: 0,
-        lastUpdated: Date.now()
-      }
-
-      startResponseLifecycle(api)
-
-      app.get(api.endpoint, (req, res) => {
-        const currentResponse = apis[api.name].current
-
-        res.header('Access-Control-Allow-Origin', '*')
-
-        if (currentResponse.headers) {
-          Object.keys(currentResponse.headers).forEach((header) => {
-            res.setHeader(header, currentResponse.headers[header])
-          })
-        }
-        if (currentResponse.response) {
-          res.status(currentResponse.status)
-          res.sendFile(currentResponse.response, { root: __dirname })
-        } else {
-          res.status(500);
-          res.send('Error with api configuration')
-        }
-      })
-    });
-
-    // continue scanning if we have more movies, because
-    // scan can retrieve a maximum of 1MB of data
-    if (typeof data.LastEvaluatedKey != "undefined") {
-      console.log("Scanning for more...");
-      params.ExclusiveStartKey = data.LastEvaluatedKey;
-      docClient.scan(params, onScan);
-    }
+config.forEach(api => {
+  apis[api.name] = {
+    current: api.responses[0],
+    responses: api.responses,
+    index: 0,
+    lastUpdated: Date.now()
   }
-}
+
+  startResponseLifecycle(api)
+  
+  app.get(api.endpoint, (req, res) => {
+    const currentResponse = apis[api.name].current
+
+    res.header('Access-Control-Allow-Origin', '*')
+
+    if (currentResponse.headers) {
+      Object.keys(currentResponse.headers).forEach((header) => {
+        res.setHeader(header, currentResponse.headers[header])
+      })
+    }
+    if (currentResponse.response) {
+      res.status(currentResponse.status)
+      res.sendFile(currentResponse.response, { root: __dirname })
+    } else {
+      res.status(500);
+      res.send('Error with api configuration')
+    }
+  })
+})
 
 app.get('/config', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
-  res.send(apiConfig)
+  res.send(config)
 })
 
 app.use(express.static('client'))
@@ -100,7 +72,7 @@ wss.on('connection', (ws, req) => {
   stateEmitter.on('update', update)
 
   ws.on('close', () => {
-    stateEmitter.removeListener('update', update)
+   stateEmitter.removeListener('update', update)
   })
 
   function update() {
@@ -130,5 +102,3 @@ function startResponseLifecycle(api) {
 }
 
 console.log(`Started on port ${port}`)
-
-
