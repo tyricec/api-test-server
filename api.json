@@ -18,7 +18,7 @@
 		},
 		"response": "json/blogger-posts-empty.json",
 		"status": 200,
-		"timeToLive": 60
+		"timeToLive": 45
 	}, {
 		"info": {
 			"color": "#66af66",
@@ -26,7 +26,7 @@
 		},
 		"response": "json/blogger-posts-two.json",
 		"status": 200,
-		"timeToLive": 65
+		"timeToLive": 45
 	}, {
 		"info": {
 			"color": "#af6666",
@@ -34,7 +34,7 @@
 		},
 		"response": "json/error.json",
 		"status": 500,
-		"timeToLive": 75 
+		"timeToLive": 45 
 	}],
 	"endpoint": "/blogger-posts"
 }]
