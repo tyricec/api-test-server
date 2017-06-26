@@ -12,6 +12,14 @@
 		"status": 200,
 		"timeToLive": 45 
 	}, {
+		"info":{
+			"color": "#9b9b9b",
+			"name": "Blogger - Empty Post"
+		},
+		"response": "json/blogger-posts-empty.json",
+		"status": 200,
+		"timeToLive": 60
+	}, {
 		"info": {
 			"color": "#66af66",
 			"name": "Blogger - Two Posts"
